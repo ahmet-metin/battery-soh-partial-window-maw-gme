@@ -1,0 +1,455 @@
+scenario,description,exclude_outliers,feature,n_features
+all_windows_available,All window-specific features are available.,False,pmax_full_32_42,61
+all_windows_available,All window-specific features are available.,False,pmax_voltage_full_32_42,61
+all_windows_available,All window-specific features are available.,False,ic_area_full_32_42,61
+all_windows_available,All window-specific features are available.,False,ic_mean_full_32_42,61
+all_windows_available,All window-specific features are available.,False,ic_std_full_32_42,61
+all_windows_available,All window-specific features are available.,False,peak_width_full_32_42,61
+all_windows_available,All window-specific features are available.,False,charge_time_window_full_32_42,61
+all_windows_available,All window-specific features are available.,False,q_delta_window_full_32_42,61
+all_windows_available,All window-specific features are available.,False,dva_mean_full_32_42,61
+all_windows_available,All window-specific features are available.,False,dva_std_full_32_42,61
+all_windows_available,All window-specific features are available.,False,dva_abs_mean_full_32_42,61
+all_windows_available,All window-specific features are available.,False,temp_mean_window_full_32_42,61
+all_windows_available,All window-specific features are available.,False,temp_max_window_full_32_42,61
+all_windows_available,All window-specific features are available.,False,pmax_norm_full_32_42,61
+all_windows_available,All window-specific features are available.,False,cycle_number,61
+all_windows_available,All window-specific features are available.,False,temp_mean,61
+all_windows_available,All window-specific features are available.,False,temp_max,61
+all_windows_available,All window-specific features are available.,False,temp_min,61
+all_windows_available,All window-specific features are available.,False,temp_std,61
+all_windows_available,All window-specific features are available.,False,pmax_medium_35_40,61
+all_windows_available,All window-specific features are available.,False,pmax_voltage_medium_35_40,61
+all_windows_available,All window-specific features are available.,False,ic_area_medium_35_40,61
+all_windows_available,All window-specific features are available.,False,ic_mean_medium_35_40,61
+all_windows_available,All window-specific features are available.,False,ic_std_medium_35_40,61
+all_windows_available,All window-specific features are available.,False,peak_width_medium_35_40,61
+all_windows_available,All window-specific features are available.,False,charge_time_window_medium_35_40,61
+all_windows_available,All window-specific features are available.,False,q_delta_window_medium_35_40,61
+all_windows_available,All window-specific features are available.,False,dva_mean_medium_35_40,61
+all_windows_available,All window-specific features are available.,False,dva_std_medium_35_40,61
+all_windows_available,All window-specific features are available.,False,dva_abs_mean_medium_35_40,61
+all_windows_available,All window-specific features are available.,False,temp_mean_window_medium_35_40,61
+all_windows_available,All window-specific features are available.,False,temp_max_window_medium_35_40,61
+all_windows_available,All window-specific features are available.,False,pmax_norm_medium_35_40,61
+all_windows_available,All window-specific features are available.,False,pmax_narrow_36_385,61
+all_windows_available,All window-specific features are available.,False,pmax_voltage_narrow_36_385,61
+all_windows_available,All window-specific features are available.,False,ic_area_narrow_36_385,61
+all_windows_available,All window-specific features are available.,False,ic_mean_narrow_36_385,61
+all_windows_available,All window-specific features are available.,False,ic_std_narrow_36_385,61
+all_windows_available,All window-specific features are available.,False,peak_width_narrow_36_385,61
+all_windows_available,All window-specific features are available.,False,charge_time_window_narrow_36_385,61
+all_windows_available,All window-specific features are available.,False,q_delta_window_narrow_36_385,61
+all_windows_available,All window-specific features are available.,False,dva_mean_narrow_36_385,61
+all_windows_available,All window-specific features are available.,False,dva_std_narrow_36_385,61
+all_windows_available,All window-specific features are available.,False,dva_abs_mean_narrow_36_385,61
+all_windows_available,All window-specific features are available.,False,temp_mean_window_narrow_36_385,61
+all_windows_available,All window-specific features are available.,False,temp_max_window_narrow_36_385,61
+all_windows_available,All window-specific features are available.,False,pmax_norm_narrow_36_385,61
+all_windows_available,All window-specific features are available.,False,pmax_very_narrow_365_38,61
+all_windows_available,All window-specific features are available.,False,pmax_voltage_very_narrow_365_38,61
+all_windows_available,All window-specific features are available.,False,ic_area_very_narrow_365_38,61
+all_windows_available,All window-specific features are available.,False,ic_mean_very_narrow_365_38,61
+all_windows_available,All window-specific features are available.,False,ic_std_very_narrow_365_38,61
+all_windows_available,All window-specific features are available.,False,peak_width_very_narrow_365_38,61
+all_windows_available,All window-specific features are available.,False,charge_time_window_very_narrow_365_38,61
+all_windows_available,All window-specific features are available.,False,q_delta_window_very_narrow_365_38,61
+all_windows_available,All window-specific features are available.,False,dva_mean_very_narrow_365_38,61
+all_windows_available,All window-specific features are available.,False,dva_std_very_narrow_365_38,61
+all_windows_available,All window-specific features are available.,False,dva_abs_mean_very_narrow_365_38,61
+all_windows_available,All window-specific features are available.,False,temp_mean_window_very_narrow_365_38,61
+all_windows_available,All window-specific features are available.,False,temp_max_window_very_narrow_365_38,61
+all_windows_available,All window-specific features are available.,False,pmax_norm_very_narrow_365_38,61
+only_full_window,Only full-window features are available.,False,pmax_full_32_42,19
+only_full_window,Only full-window features are available.,False,pmax_voltage_full_32_42,19
+only_full_window,Only full-window features are available.,False,ic_area_full_32_42,19
+only_full_window,Only full-window features are available.,False,ic_mean_full_32_42,19
+only_full_window,Only full-window features are available.,False,ic_std_full_32_42,19
+only_full_window,Only full-window features are available.,False,peak_width_full_32_42,19
+only_full_window,Only full-window features are available.,False,charge_time_window_full_32_42,19
+only_full_window,Only full-window features are available.,False,q_delta_window_full_32_42,19
+only_full_window,Only full-window features are available.,False,dva_mean_full_32_42,19
+only_full_window,Only full-window features are available.,False,dva_std_full_32_42,19
+only_full_window,Only full-window features are available.,False,dva_abs_mean_full_32_42,19
+only_full_window,Only full-window features are available.,False,temp_mean_window_full_32_42,19
+only_full_window,Only full-window features are available.,False,temp_max_window_full_32_42,19
+only_full_window,Only full-window features are available.,False,pmax_norm_full_32_42,19
+only_full_window,Only full-window features are available.,False,cycle_number,19
+only_full_window,Only full-window features are available.,False,temp_mean,19
+only_full_window,Only full-window features are available.,False,temp_max,19
+only_full_window,Only full-window features are available.,False,temp_min,19
+only_full_window,Only full-window features are available.,False,temp_std,19
+only_medium_window,Only medium partial-window features are available.,False,pmax_medium_35_40,19
+only_medium_window,Only medium partial-window features are available.,False,pmax_voltage_medium_35_40,19
+only_medium_window,Only medium partial-window features are available.,False,ic_area_medium_35_40,19
+only_medium_window,Only medium partial-window features are available.,False,ic_mean_medium_35_40,19
+only_medium_window,Only medium partial-window features are available.,False,ic_std_medium_35_40,19
+only_medium_window,Only medium partial-window features are available.,False,peak_width_medium_35_40,19
+only_medium_window,Only medium partial-window features are available.,False,charge_time_window_medium_35_40,19
+only_medium_window,Only medium partial-window features are available.,False,q_delta_window_medium_35_40,19
+only_medium_window,Only medium partial-window features are available.,False,dva_mean_medium_35_40,19
+only_medium_window,Only medium partial-window features are available.,False,dva_std_medium_35_40,19
+only_medium_window,Only medium partial-window features are available.,False,dva_abs_mean_medium_35_40,19
+only_medium_window,Only medium partial-window features are available.,False,temp_mean_window_medium_35_40,19
+only_medium_window,Only medium partial-window features are available.,False,temp_max_window_medium_35_40,19
+only_medium_window,Only medium partial-window features are available.,False,pmax_norm_medium_35_40,19
+only_medium_window,Only medium partial-window features are available.,False,cycle_number,19
+only_medium_window,Only medium partial-window features are available.,False,temp_mean,19
+only_medium_window,Only medium partial-window features are available.,False,temp_max,19
+only_medium_window,Only medium partial-window features are available.,False,temp_min,19
+only_medium_window,Only medium partial-window features are available.,False,temp_std,19
+only_narrow_window,Only narrow partial-window features are available.,False,pmax_narrow_36_385,19
+only_narrow_window,Only narrow partial-window features are available.,False,pmax_voltage_narrow_36_385,19
+only_narrow_window,Only narrow partial-window features are available.,False,ic_area_narrow_36_385,19
+only_narrow_window,Only narrow partial-window features are available.,False,ic_mean_narrow_36_385,19
+only_narrow_window,Only narrow partial-window features are available.,False,ic_std_narrow_36_385,19
+only_narrow_window,Only narrow partial-window features are available.,False,peak_width_narrow_36_385,19
+only_narrow_window,Only narrow partial-window features are available.,False,charge_time_window_narrow_36_385,19
+only_narrow_window,Only narrow partial-window features are available.,False,q_delta_window_narrow_36_385,19
+only_narrow_window,Only narrow partial-window features are available.,False,dva_mean_narrow_36_385,19
+only_narrow_window,Only narrow partial-window features are available.,False,dva_std_narrow_36_385,19
+only_narrow_window,Only narrow partial-window features are available.,False,dva_abs_mean_narrow_36_385,19
+only_narrow_window,Only narrow partial-window features are available.,False,temp_mean_window_narrow_36_385,19
+only_narrow_window,Only narrow partial-window features are available.,False,temp_max_window_narrow_36_385,19
+only_narrow_window,Only narrow partial-window features are available.,False,pmax_norm_narrow_36_385,19
+only_narrow_window,Only narrow partial-window features are available.,False,cycle_number,19
+only_narrow_window,Only narrow partial-window features are available.,False,temp_mean,19
+only_narrow_window,Only narrow partial-window features are available.,False,temp_max,19
+only_narrow_window,Only narrow partial-window features are available.,False,temp_min,19
+only_narrow_window,Only narrow partial-window features are available.,False,temp_std,19
+only_very_narrow_window,Only very-narrow partial-window features are available.,False,pmax_very_narrow_365_38,19
+only_very_narrow_window,Only very-narrow partial-window features are available.,False,pmax_voltage_very_narrow_365_38,19
+only_very_narrow_window,Only very-narrow partial-window features are available.,False,ic_area_very_narrow_365_38,19
+only_very_narrow_window,Only very-narrow partial-window features are available.,False,ic_mean_very_narrow_365_38,19
+only_very_narrow_window,Only very-narrow partial-window features are available.,False,ic_std_very_narrow_365_38,19
+only_very_narrow_window,Only very-narrow partial-window features are available.,False,peak_width_very_narrow_365_38,19
+only_very_narrow_window,Only very-narrow partial-window features are available.,False,charge_time_window_very_narrow_365_38,19
+only_very_narrow_window,Only very-narrow partial-window features are available.,False,q_delta_window_very_narrow_365_38,19
+only_very_narrow_window,Only very-narrow partial-window features are available.,False,dva_mean_very_narrow_365_38,19
+only_very_narrow_window,Only very-narrow partial-window features are available.,False,dva_std_very_narrow_365_38,19
+only_very_narrow_window,Only very-narrow partial-window features are available.,False,dva_abs_mean_very_narrow_365_38,19
+only_very_narrow_window,Only very-narrow partial-window features are available.,False,temp_mean_window_very_narrow_365_38,19
+only_very_narrow_window,Only very-narrow partial-window features are available.,False,temp_max_window_very_narrow_365_38,19
+only_very_narrow_window,Only very-narrow partial-window features are available.,False,pmax_norm_very_narrow_365_38,19
+only_very_narrow_window,Only very-narrow partial-window features are available.,False,cycle_number,19
+only_very_narrow_window,Only very-narrow partial-window features are available.,False,temp_mean,19
+only_very_narrow_window,Only very-narrow partial-window features are available.,False,temp_max,19
+only_very_narrow_window,Only very-narrow partial-window features are available.,False,temp_min,19
+only_very_narrow_window,Only very-narrow partial-window features are available.,False,temp_std,19
+pmax_features_missing,All pmax-related features are removed from the all-window feature set.,False,ic_area_full_32_42,49
+pmax_features_missing,All pmax-related features are removed from the all-window feature set.,False,ic_mean_full_32_42,49
+pmax_features_missing,All pmax-related features are removed from the all-window feature set.,False,ic_std_full_32_42,49
+pmax_features_missing,All pmax-related features are removed from the all-window feature set.,False,peak_width_full_32_42,49
+pmax_features_missing,All pmax-related features are removed from the all-window feature set.,False,charge_time_window_full_32_42,49
+pmax_features_missing,All pmax-related features are removed from the all-window feature set.,False,q_delta_window_full_32_42,49
+pmax_features_missing,All pmax-related features are removed from the all-window feature set.,False,dva_mean_full_32_42,49
+pmax_features_missing,All pmax-related features are removed from the all-window feature set.,False,dva_std_full_32_42,49
+pmax_features_missing,All pmax-related features are removed from the all-window feature set.,False,dva_abs_mean_full_32_42,49
+pmax_features_missing,All pmax-related features are removed from the all-window feature set.,False,temp_mean_window_full_32_42,49
+pmax_features_missing,All pmax-related features are removed from the all-window feature set.,False,temp_max_window_full_32_42,49
+pmax_features_missing,All pmax-related features are removed from the all-window feature set.,False,cycle_number,49
+pmax_features_missing,All pmax-related features are removed from the all-window feature set.,False,temp_mean,49
+pmax_features_missing,All pmax-related features are removed from the all-window feature set.,False,temp_max,49
+pmax_features_missing,All pmax-related features are removed from the all-window feature set.,False,temp_min,49
+pmax_features_missing,All pmax-related features are removed from the all-window feature set.,False,temp_std,49
+pmax_features_missing,All pmax-related features are removed from the all-window feature set.,False,ic_area_medium_35_40,49
+pmax_features_missing,All pmax-related features are removed from the all-window feature set.,False,ic_mean_medium_35_40,49
+pmax_features_missing,All pmax-related features are removed from the all-window feature set.,False,ic_std_medium_35_40,49
+pmax_features_missing,All pmax-related features are removed from the all-window feature set.,False,peak_width_medium_35_40,49
+pmax_features_missing,All pmax-related features are removed from the all-window feature set.,False,charge_time_window_medium_35_40,49
+pmax_features_missing,All pmax-related features are removed from the all-window feature set.,False,q_delta_window_medium_35_40,49
+pmax_features_missing,All pmax-related features are removed from the all-window feature set.,False,dva_mean_medium_35_40,49
+pmax_features_missing,All pmax-related features are removed from the all-window feature set.,False,dva_std_medium_35_40,49
+pmax_features_missing,All pmax-related features are removed from the all-window feature set.,False,dva_abs_mean_medium_35_40,49
+pmax_features_missing,All pmax-related features are removed from the all-window feature set.,False,temp_mean_window_medium_35_40,49
+pmax_features_missing,All pmax-related features are removed from the all-window feature set.,False,temp_max_window_medium_35_40,49
+pmax_features_missing,All pmax-related features are removed from the all-window feature set.,False,ic_area_narrow_36_385,49
+pmax_features_missing,All pmax-related features are removed from the all-window feature set.,False,ic_mean_narrow_36_385,49
+pmax_features_missing,All pmax-related features are removed from the all-window feature set.,False,ic_std_narrow_36_385,49
+pmax_features_missing,All pmax-related features are removed from the all-window feature set.,False,peak_width_narrow_36_385,49
+pmax_features_missing,All pmax-related features are removed from the all-window feature set.,False,charge_time_window_narrow_36_385,49
+pmax_features_missing,All pmax-related features are removed from the all-window feature set.,False,q_delta_window_narrow_36_385,49
+pmax_features_missing,All pmax-related features are removed from the all-window feature set.,False,dva_mean_narrow_36_385,49
+pmax_features_missing,All pmax-related features are removed from the all-window feature set.,False,dva_std_narrow_36_385,49
+pmax_features_missing,All pmax-related features are removed from the all-window feature set.,False,dva_abs_mean_narrow_36_385,49
+pmax_features_missing,All pmax-related features are removed from the all-window feature set.,False,temp_mean_window_narrow_36_385,49
+pmax_features_missing,All pmax-related features are removed from the all-window feature set.,False,temp_max_window_narrow_36_385,49
+pmax_features_missing,All pmax-related features are removed from the all-window feature set.,False,ic_area_very_narrow_365_38,49
+pmax_features_missing,All pmax-related features are removed from the all-window feature set.,False,ic_mean_very_narrow_365_38,49
+pmax_features_missing,All pmax-related features are removed from the all-window feature set.,False,ic_std_very_narrow_365_38,49
+pmax_features_missing,All pmax-related features are removed from the all-window feature set.,False,peak_width_very_narrow_365_38,49
+pmax_features_missing,All pmax-related features are removed from the all-window feature set.,False,charge_time_window_very_narrow_365_38,49
+pmax_features_missing,All pmax-related features are removed from the all-window feature set.,False,q_delta_window_very_narrow_365_38,49
+pmax_features_missing,All pmax-related features are removed from the all-window feature set.,False,dva_mean_very_narrow_365_38,49
+pmax_features_missing,All pmax-related features are removed from the all-window feature set.,False,dva_std_very_narrow_365_38,49
+pmax_features_missing,All pmax-related features are removed from the all-window feature set.,False,dva_abs_mean_very_narrow_365_38,49
+pmax_features_missing,All pmax-related features are removed from the all-window feature set.,False,temp_mean_window_very_narrow_365_38,49
+pmax_features_missing,All pmax-related features are removed from the all-window feature set.,False,temp_max_window_very_narrow_365_38,49
+ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",False,pmax_full_32_42,41
+ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",False,pmax_voltage_full_32_42,41
+ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",False,ic_area_full_32_42,41
+ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",False,ic_mean_full_32_42,41
+ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",False,charge_time_window_full_32_42,41
+ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",False,q_delta_window_full_32_42,41
+ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",False,temp_mean_window_full_32_42,41
+ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",False,temp_max_window_full_32_42,41
+ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",False,pmax_norm_full_32_42,41
+ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",False,cycle_number,41
+ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",False,temp_mean,41
+ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",False,temp_max,41
+ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",False,temp_min,41
+ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",False,temp_std,41
+ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",False,pmax_medium_35_40,41
+ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",False,pmax_voltage_medium_35_40,41
+ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",False,ic_area_medium_35_40,41
+ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",False,ic_mean_medium_35_40,41
+ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",False,charge_time_window_medium_35_40,41
+ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",False,q_delta_window_medium_35_40,41
+ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",False,temp_mean_window_medium_35_40,41
+ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",False,temp_max_window_medium_35_40,41
+ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",False,pmax_norm_medium_35_40,41
+ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",False,pmax_narrow_36_385,41
+ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",False,pmax_voltage_narrow_36_385,41
+ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",False,ic_area_narrow_36_385,41
+ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",False,ic_mean_narrow_36_385,41
+ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",False,charge_time_window_narrow_36_385,41
+ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",False,q_delta_window_narrow_36_385,41
+ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",False,temp_mean_window_narrow_36_385,41
+ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",False,temp_max_window_narrow_36_385,41
+ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",False,pmax_norm_narrow_36_385,41
+ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",False,pmax_very_narrow_365_38,41
+ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",False,pmax_voltage_very_narrow_365_38,41
+ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",False,ic_area_very_narrow_365_38,41
+ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",False,ic_mean_very_narrow_365_38,41
+ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",False,charge_time_window_very_narrow_365_38,41
+ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",False,q_delta_window_very_narrow_365_38,41
+ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",False,temp_mean_window_very_narrow_365_38,41
+ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",False,temp_max_window_very_narrow_365_38,41
+ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",False,pmax_norm_very_narrow_365_38,41
+all_windows_available,All window-specific features are available.,True,pmax_full_32_42,61
+all_windows_available,All window-specific features are available.,True,pmax_voltage_full_32_42,61
+all_windows_available,All window-specific features are available.,True,ic_area_full_32_42,61
+all_windows_available,All window-specific features are available.,True,ic_mean_full_32_42,61
+all_windows_available,All window-specific features are available.,True,ic_std_full_32_42,61
+all_windows_available,All window-specific features are available.,True,peak_width_full_32_42,61
+all_windows_available,All window-specific features are available.,True,charge_time_window_full_32_42,61
+all_windows_available,All window-specific features are available.,True,q_delta_window_full_32_42,61
+all_windows_available,All window-specific features are available.,True,dva_mean_full_32_42,61
+all_windows_available,All window-specific features are available.,True,dva_std_full_32_42,61
+all_windows_available,All window-specific features are available.,True,dva_abs_mean_full_32_42,61
+all_windows_available,All window-specific features are available.,True,temp_mean_window_full_32_42,61
+all_windows_available,All window-specific features are available.,True,temp_max_window_full_32_42,61
+all_windows_available,All window-specific features are available.,True,pmax_norm_full_32_42,61
+all_windows_available,All window-specific features are available.,True,cycle_number,61
+all_windows_available,All window-specific features are available.,True,temp_mean,61
+all_windows_available,All window-specific features are available.,True,temp_max,61
+all_windows_available,All window-specific features are available.,True,temp_min,61
+all_windows_available,All window-specific features are available.,True,temp_std,61
+all_windows_available,All window-specific features are available.,True,pmax_medium_35_40,61
+all_windows_available,All window-specific features are available.,True,pmax_voltage_medium_35_40,61
+all_windows_available,All window-specific features are available.,True,ic_area_medium_35_40,61
+all_windows_available,All window-specific features are available.,True,ic_mean_medium_35_40,61
+all_windows_available,All window-specific features are available.,True,ic_std_medium_35_40,61
+all_windows_available,All window-specific features are available.,True,peak_width_medium_35_40,61
+all_windows_available,All window-specific features are available.,True,charge_time_window_medium_35_40,61
+all_windows_available,All window-specific features are available.,True,q_delta_window_medium_35_40,61
+all_windows_available,All window-specific features are available.,True,dva_mean_medium_35_40,61
+all_windows_available,All window-specific features are available.,True,dva_std_medium_35_40,61
+all_windows_available,All window-specific features are available.,True,dva_abs_mean_medium_35_40,61
+all_windows_available,All window-specific features are available.,True,temp_mean_window_medium_35_40,61
+all_windows_available,All window-specific features are available.,True,temp_max_window_medium_35_40,61
+all_windows_available,All window-specific features are available.,True,pmax_norm_medium_35_40,61
+all_windows_available,All window-specific features are available.,True,pmax_narrow_36_385,61
+all_windows_available,All window-specific features are available.,True,pmax_voltage_narrow_36_385,61
+all_windows_available,All window-specific features are available.,True,ic_area_narrow_36_385,61
+all_windows_available,All window-specific features are available.,True,ic_mean_narrow_36_385,61
+all_windows_available,All window-specific features are available.,True,ic_std_narrow_36_385,61
+all_windows_available,All window-specific features are available.,True,peak_width_narrow_36_385,61
+all_windows_available,All window-specific features are available.,True,charge_time_window_narrow_36_385,61
+all_windows_available,All window-specific features are available.,True,q_delta_window_narrow_36_385,61
+all_windows_available,All window-specific features are available.,True,dva_mean_narrow_36_385,61
+all_windows_available,All window-specific features are available.,True,dva_std_narrow_36_385,61
+all_windows_available,All window-specific features are available.,True,dva_abs_mean_narrow_36_385,61
+all_windows_available,All window-specific features are available.,True,temp_mean_window_narrow_36_385,61
+all_windows_available,All window-specific features are available.,True,temp_max_window_narrow_36_385,61
+all_windows_available,All window-specific features are available.,True,pmax_norm_narrow_36_385,61
+all_windows_available,All window-specific features are available.,True,pmax_very_narrow_365_38,61
+all_windows_available,All window-specific features are available.,True,pmax_voltage_very_narrow_365_38,61
+all_windows_available,All window-specific features are available.,True,ic_area_very_narrow_365_38,61
+all_windows_available,All window-specific features are available.,True,ic_mean_very_narrow_365_38,61
+all_windows_available,All window-specific features are available.,True,ic_std_very_narrow_365_38,61
+all_windows_available,All window-specific features are available.,True,peak_width_very_narrow_365_38,61
+all_windows_available,All window-specific features are available.,True,charge_time_window_very_narrow_365_38,61
+all_windows_available,All window-specific features are available.,True,q_delta_window_very_narrow_365_38,61
+all_windows_available,All window-specific features are available.,True,dva_mean_very_narrow_365_38,61
+all_windows_available,All window-specific features are available.,True,dva_std_very_narrow_365_38,61
+all_windows_available,All window-specific features are available.,True,dva_abs_mean_very_narrow_365_38,61
+all_windows_available,All window-specific features are available.,True,temp_mean_window_very_narrow_365_38,61
+all_windows_available,All window-specific features are available.,True,temp_max_window_very_narrow_365_38,61
+all_windows_available,All window-specific features are available.,True,pmax_norm_very_narrow_365_38,61
+only_full_window,Only full-window features are available.,True,pmax_full_32_42,19
+only_full_window,Only full-window features are available.,True,pmax_voltage_full_32_42,19
+only_full_window,Only full-window features are available.,True,ic_area_full_32_42,19
+only_full_window,Only full-window features are available.,True,ic_mean_full_32_42,19
+only_full_window,Only full-window features are available.,True,ic_std_full_32_42,19
+only_full_window,Only full-window features are available.,True,peak_width_full_32_42,19
+only_full_window,Only full-window features are available.,True,charge_time_window_full_32_42,19
+only_full_window,Only full-window features are available.,True,q_delta_window_full_32_42,19
+only_full_window,Only full-window features are available.,True,dva_mean_full_32_42,19
+only_full_window,Only full-window features are available.,True,dva_std_full_32_42,19
+only_full_window,Only full-window features are available.,True,dva_abs_mean_full_32_42,19
+only_full_window,Only full-window features are available.,True,temp_mean_window_full_32_42,19
+only_full_window,Only full-window features are available.,True,temp_max_window_full_32_42,19
+only_full_window,Only full-window features are available.,True,pmax_norm_full_32_42,19
+only_full_window,Only full-window features are available.,True,cycle_number,19
+only_full_window,Only full-window features are available.,True,temp_mean,19
+only_full_window,Only full-window features are available.,True,temp_max,19
+only_full_window,Only full-window features are available.,True,temp_min,19
+only_full_window,Only full-window features are available.,True,temp_std,19
+only_medium_window,Only medium partial-window features are available.,True,pmax_medium_35_40,19
+only_medium_window,Only medium partial-window features are available.,True,pmax_voltage_medium_35_40,19
+only_medium_window,Only medium partial-window features are available.,True,ic_area_medium_35_40,19
+only_medium_window,Only medium partial-window features are available.,True,ic_mean_medium_35_40,19
+only_medium_window,Only medium partial-window features are available.,True,ic_std_medium_35_40,19
+only_medium_window,Only medium partial-window features are available.,True,peak_width_medium_35_40,19
+only_medium_window,Only medium partial-window features are available.,True,charge_time_window_medium_35_40,19
+only_medium_window,Only medium partial-window features are available.,True,q_delta_window_medium_35_40,19
+only_medium_window,Only medium partial-window features are available.,True,dva_mean_medium_35_40,19
+only_medium_window,Only medium partial-window features are available.,True,dva_std_medium_35_40,19
+only_medium_window,Only medium partial-window features are available.,True,dva_abs_mean_medium_35_40,19
+only_medium_window,Only medium partial-window features are available.,True,temp_mean_window_medium_35_40,19
+only_medium_window,Only medium partial-window features are available.,True,temp_max_window_medium_35_40,19
+only_medium_window,Only medium partial-window features are available.,True,pmax_norm_medium_35_40,19
+only_medium_window,Only medium partial-window features are available.,True,cycle_number,19
+only_medium_window,Only medium partial-window features are available.,True,temp_mean,19
+only_medium_window,Only medium partial-window features are available.,True,temp_max,19
+only_medium_window,Only medium partial-window features are available.,True,temp_min,19
+only_medium_window,Only medium partial-window features are available.,True,temp_std,19
+only_narrow_window,Only narrow partial-window features are available.,True,pmax_narrow_36_385,19
+only_narrow_window,Only narrow partial-window features are available.,True,pmax_voltage_narrow_36_385,19
+only_narrow_window,Only narrow partial-window features are available.,True,ic_area_narrow_36_385,19
+only_narrow_window,Only narrow partial-window features are available.,True,ic_mean_narrow_36_385,19
+only_narrow_window,Only narrow partial-window features are available.,True,ic_std_narrow_36_385,19
+only_narrow_window,Only narrow partial-window features are available.,True,peak_width_narrow_36_385,19
+only_narrow_window,Only narrow partial-window features are available.,True,charge_time_window_narrow_36_385,19
+only_narrow_window,Only narrow partial-window features are available.,True,q_delta_window_narrow_36_385,19
+only_narrow_window,Only narrow partial-window features are available.,True,dva_mean_narrow_36_385,19
+only_narrow_window,Only narrow partial-window features are available.,True,dva_std_narrow_36_385,19
+only_narrow_window,Only narrow partial-window features are available.,True,dva_abs_mean_narrow_36_385,19
+only_narrow_window,Only narrow partial-window features are available.,True,temp_mean_window_narrow_36_385,19
+only_narrow_window,Only narrow partial-window features are available.,True,temp_max_window_narrow_36_385,19
+only_narrow_window,Only narrow partial-window features are available.,True,pmax_norm_narrow_36_385,19
+only_narrow_window,Only narrow partial-window features are available.,True,cycle_number,19
+only_narrow_window,Only narrow partial-window features are available.,True,temp_mean,19
+only_narrow_window,Only narrow partial-window features are available.,True,temp_max,19
+only_narrow_window,Only narrow partial-window features are available.,True,temp_min,19
+only_narrow_window,Only narrow partial-window features are available.,True,temp_std,19
+only_very_narrow_window,Only very-narrow partial-window features are available.,True,pmax_very_narrow_365_38,19
+only_very_narrow_window,Only very-narrow partial-window features are available.,True,pmax_voltage_very_narrow_365_38,19
+only_very_narrow_window,Only very-narrow partial-window features are available.,True,ic_area_very_narrow_365_38,19
+only_very_narrow_window,Only very-narrow partial-window features are available.,True,ic_mean_very_narrow_365_38,19
+only_very_narrow_window,Only very-narrow partial-window features are available.,True,ic_std_very_narrow_365_38,19
+only_very_narrow_window,Only very-narrow partial-window features are available.,True,peak_width_very_narrow_365_38,19
+only_very_narrow_window,Only very-narrow partial-window features are available.,True,charge_time_window_very_narrow_365_38,19
+only_very_narrow_window,Only very-narrow partial-window features are available.,True,q_delta_window_very_narrow_365_38,19
+only_very_narrow_window,Only very-narrow partial-window features are available.,True,dva_mean_very_narrow_365_38,19
+only_very_narrow_window,Only very-narrow partial-window features are available.,True,dva_std_very_narrow_365_38,19
+only_very_narrow_window,Only very-narrow partial-window features are available.,True,dva_abs_mean_very_narrow_365_38,19
+only_very_narrow_window,Only very-narrow partial-window features are available.,True,temp_mean_window_very_narrow_365_38,19
+only_very_narrow_window,Only very-narrow partial-window features are available.,True,temp_max_window_very_narrow_365_38,19
+only_very_narrow_window,Only very-narrow partial-window features are available.,True,pmax_norm_very_narrow_365_38,19
+only_very_narrow_window,Only very-narrow partial-window features are available.,True,cycle_number,19
+only_very_narrow_window,Only very-narrow partial-window features are available.,True,temp_mean,19
+only_very_narrow_window,Only very-narrow partial-window features are available.,True,temp_max,19
+only_very_narrow_window,Only very-narrow partial-window features are available.,True,temp_min,19
+only_very_narrow_window,Only very-narrow partial-window features are available.,True,temp_std,19
+pmax_features_missing,All pmax-related features are removed from the all-window feature set.,True,ic_area_full_32_42,49
+pmax_features_missing,All pmax-related features are removed from the all-window feature set.,True,ic_mean_full_32_42,49
+pmax_features_missing,All pmax-related features are removed from the all-window feature set.,True,ic_std_full_32_42,49
+pmax_features_missing,All pmax-related features are removed from the all-window feature set.,True,peak_width_full_32_42,49
+pmax_features_missing,All pmax-related features are removed from the all-window feature set.,True,charge_time_window_full_32_42,49
+pmax_features_missing,All pmax-related features are removed from the all-window feature set.,True,q_delta_window_full_32_42,49
+pmax_features_missing,All pmax-related features are removed from the all-window feature set.,True,dva_mean_full_32_42,49
+pmax_features_missing,All pmax-related features are removed from the all-window feature set.,True,dva_std_full_32_42,49
+pmax_features_missing,All pmax-related features are removed from the all-window feature set.,True,dva_abs_mean_full_32_42,49
+pmax_features_missing,All pmax-related features are removed from the all-window feature set.,True,temp_mean_window_full_32_42,49
+pmax_features_missing,All pmax-related features are removed from the all-window feature set.,True,temp_max_window_full_32_42,49
+pmax_features_missing,All pmax-related features are removed from the all-window feature set.,True,cycle_number,49
+pmax_features_missing,All pmax-related features are removed from the all-window feature set.,True,temp_mean,49
+pmax_features_missing,All pmax-related features are removed from the all-window feature set.,True,temp_max,49
+pmax_features_missing,All pmax-related features are removed from the all-window feature set.,True,temp_min,49
+pmax_features_missing,All pmax-related features are removed from the all-window feature set.,True,temp_std,49
+pmax_features_missing,All pmax-related features are removed from the all-window feature set.,True,ic_area_medium_35_40,49
+pmax_features_missing,All pmax-related features are removed from the all-window feature set.,True,ic_mean_medium_35_40,49
+pmax_features_missing,All pmax-related features are removed from the all-window feature set.,True,ic_std_medium_35_40,49
+pmax_features_missing,All pmax-related features are removed from the all-window feature set.,True,peak_width_medium_35_40,49
+pmax_features_missing,All pmax-related features are removed from the all-window feature set.,True,charge_time_window_medium_35_40,49
+pmax_features_missing,All pmax-related features are removed from the all-window feature set.,True,q_delta_window_medium_35_40,49
+pmax_features_missing,All pmax-related features are removed from the all-window feature set.,True,dva_mean_medium_35_40,49
+pmax_features_missing,All pmax-related features are removed from the all-window feature set.,True,dva_std_medium_35_40,49
+pmax_features_missing,All pmax-related features are removed from the all-window feature set.,True,dva_abs_mean_medium_35_40,49
+pmax_features_missing,All pmax-related features are removed from the all-window feature set.,True,temp_mean_window_medium_35_40,49
+pmax_features_missing,All pmax-related features are removed from the all-window feature set.,True,temp_max_window_medium_35_40,49
+pmax_features_missing,All pmax-related features are removed from the all-window feature set.,True,ic_area_narrow_36_385,49
+pmax_features_missing,All pmax-related features are removed from the all-window feature set.,True,ic_mean_narrow_36_385,49
+pmax_features_missing,All pmax-related features are removed from the all-window feature set.,True,ic_std_narrow_36_385,49
+pmax_features_missing,All pmax-related features are removed from the all-window feature set.,True,peak_width_narrow_36_385,49
+pmax_features_missing,All pmax-related features are removed from the all-window feature set.,True,charge_time_window_narrow_36_385,49
+pmax_features_missing,All pmax-related features are removed from the all-window feature set.,True,q_delta_window_narrow_36_385,49
+pmax_features_missing,All pmax-related features are removed from the all-window feature set.,True,dva_mean_narrow_36_385,49
+pmax_features_missing,All pmax-related features are removed from the all-window feature set.,True,dva_std_narrow_36_385,49
+pmax_features_missing,All pmax-related features are removed from the all-window feature set.,True,dva_abs_mean_narrow_36_385,49
+pmax_features_missing,All pmax-related features are removed from the all-window feature set.,True,temp_mean_window_narrow_36_385,49
+pmax_features_missing,All pmax-related features are removed from the all-window feature set.,True,temp_max_window_narrow_36_385,49
+pmax_features_missing,All pmax-related features are removed from the all-window feature set.,True,ic_area_very_narrow_365_38,49
+pmax_features_missing,All pmax-related features are removed from the all-window feature set.,True,ic_mean_very_narrow_365_38,49
+pmax_features_missing,All pmax-related features are removed from the all-window feature set.,True,ic_std_very_narrow_365_38,49
+pmax_features_missing,All pmax-related features are removed from the all-window feature set.,True,peak_width_very_narrow_365_38,49
+pmax_features_missing,All pmax-related features are removed from the all-window feature set.,True,charge_time_window_very_narrow_365_38,49
+pmax_features_missing,All pmax-related features are removed from the all-window feature set.,True,q_delta_window_very_narrow_365_38,49
+pmax_features_missing,All pmax-related features are removed from the all-window feature set.,True,dva_mean_very_narrow_365_38,49
+pmax_features_missing,All pmax-related features are removed from the all-window feature set.,True,dva_std_very_narrow_365_38,49
+pmax_features_missing,All pmax-related features are removed from the all-window feature set.,True,dva_abs_mean_very_narrow_365_38,49
+pmax_features_missing,All pmax-related features are removed from the all-window feature set.,True,temp_mean_window_very_narrow_365_38,49
+pmax_features_missing,All pmax-related features are removed from the all-window feature set.,True,temp_max_window_very_narrow_365_38,49
+ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",True,pmax_full_32_42,41
+ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",True,pmax_voltage_full_32_42,41
+ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",True,ic_area_full_32_42,41
+ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",True,ic_mean_full_32_42,41
+ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",True,charge_time_window_full_32_42,41
+ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",True,q_delta_window_full_32_42,41
+ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",True,temp_mean_window_full_32_42,41
+ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",True,temp_max_window_full_32_42,41
+ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",True,pmax_norm_full_32_42,41
+ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",True,cycle_number,41
+ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",True,temp_mean,41
+ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",True,temp_max,41
+ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",True,temp_min,41
+ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",True,temp_std,41
+ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",True,pmax_medium_35_40,41
+ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",True,pmax_voltage_medium_35_40,41
+ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",True,ic_area_medium_35_40,41
+ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",True,ic_mean_medium_35_40,41
+ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",True,charge_time_window_medium_35_40,41
+ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",True,q_delta_window_medium_35_40,41
+ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",True,temp_mean_window_medium_35_40,41
+ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",True,temp_max_window_medium_35_40,41
+ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",True,pmax_norm_medium_35_40,41
+ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",True,pmax_narrow_36_385,41
+ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",True,pmax_voltage_narrow_36_385,41
+ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",True,ic_area_narrow_36_385,41
+ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",True,ic_mean_narrow_36_385,41
+ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",True,charge_time_window_narrow_36_385,41
+ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",True,q_delta_window_narrow_36_385,41
+ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",True,temp_mean_window_narrow_36_385,41
+ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",True,temp_max_window_narrow_36_385,41
+ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",True,pmax_norm_narrow_36_385,41
+ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",True,pmax_very_narrow_365_38,41
+ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",True,pmax_voltage_very_narrow_365_38,41
+ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",True,ic_area_very_narrow_365_38,41
+ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",True,ic_mean_very_narrow_365_38,41
+ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",True,charge_time_window_very_narrow_365_38,41
+ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",True,q_delta_window_very_narrow_365_38,41
+ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",True,temp_mean_window_very_narrow_365_38,41
+ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",True,temp_max_window_very_narrow_365_38,41
+ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",True,pmax_norm_very_narrow_365_38,41

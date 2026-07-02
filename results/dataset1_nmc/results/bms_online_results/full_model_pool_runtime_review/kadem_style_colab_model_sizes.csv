@@ -1,0 +1,6 @@
+dataset,test_cell,model,window,model_size_kb
+Dataset 1,Cell01,Kadem-style GPR-EKF,narrow_36_385,47.5908203125
+Dataset 1,Cell03,Kadem-style GPR-EKF,narrow_36_385,49.0751953125
+Dataset 1,Cell10,Kadem-style GPR-EKF,narrow_36_385,46.1376953125
+Dataset 1,Cell11,Kadem-style GPR-EKF,narrow_36_385,41.9658203125
+Dataset 1,Cell12,Kadem-style GPR-EKF,narrow_36_385,49.0751953125

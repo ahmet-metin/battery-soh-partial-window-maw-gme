@@ -1,0 +1,113 @@
+exclude_outliers,scenario,description,model,RMSE,MAE,R2
+False,all_windows_available,All window-specific features are available.,Ridge,0.004048616622998439,0.0034733730860064373,0.9953330808782782
+False,all_windows_available,All window-specific features are available.,ExtraTrees,0.005708503370506613,0.0036415726371885403,0.9902032812056447
+False,all_windows_available,All window-specific features are available.,MAW-GME,0.006205218762019706,0.003721820963329351,0.9873483268198197
+False,all_windows_available,All window-specific features are available.,XGBoost,0.0063002446150569515,0.003902952594952398,0.988367924930093
+False,all_windows_available,All window-specific features are available.,RandomForest,0.0066923147721815795,0.003960622720068067,0.9851596441381414
+False,all_windows_available,All window-specific features are available.,LightGBM,0.006983832051623451,0.003797119016671724,0.9831917016899722
+False,all_windows_available,All window-specific features are available.,HistGB,0.007061496821216728,0.003841770810482134,0.9832066408670422
+False,all_windows_available,All window-specific features are available.,CatBoost,0.008350833640944069,0.005301852004472458,0.9774032509446419
+False,ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed from the all-window feature set.",Ridge,0.004248211967174486,0.003480020212407035,0.9952415688284252
+False,ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed from the all-window feature set.",ExtraTrees,0.005915610345906785,0.0038469740300365683,0.9896019908636895
+False,ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed from the all-window feature set.",MAW-GME,0.006508326530513252,0.0040603313159298295,0.9860913483583407
+False,ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed from the all-window feature set.",XGBoost,0.006620690841187448,0.00409187169104794,0.98659014476947
+False,ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed from the all-window feature set.",RandomForest,0.007032856995158305,0.004206462737869565,0.9838498579716201
+False,ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed from the all-window feature set.",LightGBM,0.007709343041972063,0.00433171722024903,0.9802519698917166
+False,ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed from the all-window feature set.",HistGB,0.007757793467491973,0.004374917224543494,0.9800682724285665
+False,ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed from the all-window feature set.",CatBoost,0.009370998653427514,0.006420997131246296,0.9727670947622337
+False,only_full_window,Only full-window features are available.,Ridge,0.004354051543705096,0.003587962740896787,0.9948117139230042
+False,only_full_window,Only full-window features are available.,ExtraTrees,0.005408970700088517,0.0034978423067451403,0.9909677199338313
+False,only_full_window,Only full-window features are available.,MAW-GME,0.005833092065862081,0.003601165384536604,0.9888059251008826
+False,only_full_window,Only full-window features are available.,XGBoost,0.005893304829624657,0.0037190776080080045,0.9897445417583992
+False,only_full_window,Only full-window features are available.,RandomForest,0.006720769959426855,0.0038879565827070915,0.9845839357135993
+False,only_full_window,Only full-window features are available.,HistGB,0.007622980263389775,0.0041662768058306505,0.9802365994865176
+False,only_full_window,Only full-window features are available.,LightGBM,0.007899425888267888,0.004388909558049661,0.9792106182886838
+False,only_full_window,Only full-window features are available.,CatBoost,0.008324127964243784,0.0055955450153923475,0.9780819638833979
+False,only_medium_window,Only medium partial-window features are available.,Ridge,0.0054017741272394185,0.004259428284513019,0.9925171479017298
+False,only_medium_window,Only medium partial-window features are available.,ExtraTrees,0.006361406621752727,0.004059668280094008,0.9878298777629431
+False,only_medium_window,Only medium partial-window features are available.,MAW-GME,0.006373847862910836,0.0036980731426638964,0.9863499174546659
+False,only_medium_window,Only medium partial-window features are available.,XGBoost,0.006405193534912364,0.00398455615913143,0.9879520858546653
+False,only_medium_window,Only medium partial-window features are available.,RandomForest,0.007339222890035482,0.004204126851702209,0.9821816422866292
+False,only_medium_window,Only medium partial-window features are available.,HistGB,0.007632834709306547,0.004187449609028754,0.9799833325219063
+False,only_medium_window,Only medium partial-window features are available.,LightGBM,0.007784414062426652,0.0042664453150854315,0.9788296885691702
+False,only_medium_window,Only medium partial-window features are available.,CatBoost,0.009074099642063814,0.005573749255928251,0.9731425573901844
+False,only_narrow_window,Only narrow partial-window features are available.,Ridge,0.004306791912777459,0.0035830438477939645,0.9946740959987277
+False,only_narrow_window,Only narrow partial-window features are available.,MAW-GME,0.006312436335208109,0.003894184621195828,0.9874219604114455
+False,only_narrow_window,Only narrow partial-window features are available.,XGBoost,0.006770619420744772,0.004499211909789793,0.9868148201108939
+False,only_narrow_window,Only narrow partial-window features are available.,ExtraTrees,0.00699672183034907,0.00449149794259895,0.9848482581243716
+False,only_narrow_window,Only narrow partial-window features are available.,LightGBM,0.007672638759598176,0.004344389509292775,0.9802488931940708
+False,only_narrow_window,Only narrow partial-window features are available.,HistGB,0.00770850869009241,0.004274998007939731,0.9804541476818552
+False,only_narrow_window,Only narrow partial-window features are available.,RandomForest,0.007807676624580564,0.004757072444951324,0.9805826388988103
+False,only_narrow_window,Only narrow partial-window features are available.,CatBoost,0.009237188108414087,0.005941218783159319,0.9725374250785931
+False,only_very_narrow_window,Only very-narrow partial-window features are available.,Ridge,0.0066636543504441995,0.004848129383626646,0.9889360225627308
+False,only_very_narrow_window,Only very-narrow partial-window features are available.,MAW-GME,0.007351747087356608,0.004507290181522,0.9837287719601855
+False,only_very_narrow_window,Only very-narrow partial-window features are available.,ExtraTrees,0.007533492723045756,0.0049500321194245935,0.9837133454305637
+False,only_very_narrow_window,Only very-narrow partial-window features are available.,XGBoost,0.008060124040454848,0.005061549968706466,0.9811491022581922
+False,only_very_narrow_window,Only very-narrow partial-window features are available.,RandomForest,0.008118183867685579,0.0049848987589391,0.9801129084469484
+False,only_very_narrow_window,Only very-narrow partial-window features are available.,HistGB,0.008255809267140498,0.0047679384137172065,0.9787944778735679
+False,only_very_narrow_window,Only very-narrow partial-window features are available.,LightGBM,0.008315927227005629,0.00475289699281106,0.9786462203422192
+False,only_very_narrow_window,Only very-narrow partial-window features are available.,CatBoost,0.00924800179933391,0.006190093632911384,0.9736834524568967
+False,pmax_features_missing,All pmax-related features are removed from the all-window feature set.,Ridge,0.005292669575611469,0.004630933680807024,0.9921266989326025
+False,pmax_features_missing,All pmax-related features are removed from the all-window feature set.,ExtraTrees,0.006674767261684698,0.0046290933333157855,0.9871519214646696
+False,pmax_features_missing,All pmax-related features are removed from the all-window feature set.,XGBoost,0.006858119802576361,0.004666241744526889,0.9866210645149156
+False,pmax_features_missing,All pmax-related features are removed from the all-window feature set.,MAW-GME,0.00710683212405438,0.004703103610977581,0.9840816277823484
+False,pmax_features_missing,All pmax-related features are removed from the all-window feature set.,RandomForest,0.0077747941997703025,0.0051917297812091616,0.9819876545330016
+False,pmax_features_missing,All pmax-related features are removed from the all-window feature set.,LightGBM,0.008067057798519652,0.004807335195792241,0.979342936882659
+False,pmax_features_missing,All pmax-related features are removed from the all-window feature set.,HistGB,0.008067871579633491,0.004876495250517112,0.9795008446842025
+False,pmax_features_missing,All pmax-related features are removed from the all-window feature set.,CatBoost,0.008735894262914927,0.0056466541388610165,0.9749425827952859
+True,all_windows_available,All window-specific features are available.,Ridge,0.00391253024440334,0.0033554441868881946,0.9952265026292394
+True,all_windows_available,All window-specific features are available.,ExtraTrees,0.004866299700533013,0.0037063099498985206,0.9926803194431221
+True,all_windows_available,All window-specific features are available.,MAW-GME,0.0049529018513351725,0.003791228830798089,0.9917438481062197
+True,all_windows_available,All window-specific features are available.,XGBoost,0.00514603961237816,0.0038469630218870977,0.9918669129815627
+True,all_windows_available,All window-specific features are available.,HistGB,0.00517612209194336,0.003794038237203684,0.9921929879576368
+True,all_windows_available,All window-specific features are available.,LightGBM,0.005264664599134648,0.003833296531158213,0.9916767950740505
+True,all_windows_available,All window-specific features are available.,RandomForest,0.005340024257504402,0.004076721717731924,0.9916653623937909
+True,all_windows_available,All window-specific features are available.,CatBoost,0.006412984402193046,0.005080310633951842,0.9876398167524377
+True,ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed from the all-window feature set.",Ridge,0.0039030970932474635,0.0033257576744256897,0.995294191541438
+True,ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed from the all-window feature set.",ExtraTrees,0.0047848817691756775,0.0036318398196078946,0.9925491855658231
+True,ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed from the all-window feature set.",XGBoost,0.004786976470535797,0.0037332641167900095,0.9929610179876563
+True,ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed from the all-window feature set.",MAW-GME,0.004891919581336147,0.003959877557668275,0.9917630114699927
+True,ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed from the all-window feature set.",RandomForest,0.005274808356225099,0.00403393641483265,0.9917264275952012
+True,ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed from the all-window feature set.",HistGB,0.0052902985857051,0.004060481760744544,0.9915331671774593
+True,ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed from the all-window feature set.",LightGBM,0.005400668742824894,0.004111006015392109,0.9912351525286248
+True,ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed from the all-window feature set.",CatBoost,0.006624428281347647,0.005790726648288424,0.9866280819283552
+True,only_full_window,Only full-window features are available.,Ridge,0.004228872894663114,0.0036264120546542124,0.9943775360252486
+True,only_full_window,Only full-window features are available.,MAW-GME,0.004395315965637768,0.0034894732462877717,0.9938271350914746
+True,only_full_window,Only full-window features are available.,ExtraTrees,0.004523542565665348,0.003374238229643835,0.9934663447516558
+True,only_full_window,Only full-window features are available.,XGBoost,0.0047199795479254385,0.003649831408241376,0.993276532140297
+True,only_full_window,Only full-window features are available.,RandomForest,0.005005180073790607,0.00370005100736256,0.9923244456950963
+True,only_full_window,Only full-window features are available.,HistGB,0.005150781893743254,0.003829775177544183,0.9919596182950629
+True,only_full_window,Only full-window features are available.,LightGBM,0.005256443491992903,0.003911143213994307,0.9916613440343238
+True,only_full_window,Only full-window features are available.,CatBoost,0.0059055543404022085,0.005122757108138981,0.9893383328351381
+True,only_medium_window,Only medium partial-window features are available.,Ridge,0.004604194468256348,0.00391696701333867,0.9934672663848318
+True,only_medium_window,Only medium partial-window features are available.,MAW-GME,0.005313745940473591,0.003887386257962084,0.9902255780255071
+True,only_medium_window,Only medium partial-window features are available.,RandomForest,0.005764166329059644,0.004189557753309287,0.9892525876597862
+True,only_medium_window,Only medium partial-window features are available.,LightGBM,0.005846459229427982,0.004122780138855472,0.9888867589988719
+True,only_medium_window,Only medium partial-window features are available.,HistGB,0.005923879631075201,0.004157732092627682,0.9885347472307767
+True,only_medium_window,Only medium partial-window features are available.,ExtraTrees,0.006022546778320294,0.0043772711149970495,0.987527977789364
+True,only_medium_window,Only medium partial-window features are available.,XGBoost,0.006028416849704988,0.004214806858112457,0.9884723348769757
+True,only_medium_window,Only medium partial-window features are available.,CatBoost,0.00705718249014321,0.005413777946055442,0.9844999395433636
+True,only_narrow_window,Only narrow partial-window features are available.,Ridge,0.00430604264665234,0.003681821755107599,0.9943987712352541
+True,only_narrow_window,Only narrow partial-window features are available.,MAW-GME,0.005525340221892295,0.004100546387868688,0.9897367220430545
+True,only_narrow_window,Only narrow partial-window features are available.,ExtraTrees,0.005961724403599913,0.004510975928304747,0.9887430100715525
+True,only_narrow_window,Only narrow partial-window features are available.,HistGB,0.006213413739165479,0.0045102531007520305,0.9875726106777275
+True,only_narrow_window,Only narrow partial-window features are available.,LightGBM,0.006431182606978803,0.00447401257692541,0.9862013241779476
+True,only_narrow_window,Only narrow partial-window features are available.,XGBoost,0.006497347318066037,0.0047182681429712835,0.9867874009058545
+True,only_narrow_window,Only narrow partial-window features are available.,RandomForest,0.006784731055938909,0.004888175125856321,0.9845508272572496
+True,only_narrow_window,Only narrow partial-window features are available.,CatBoost,0.007390362795475527,0.005888118314970541,0.9829897163186208
+True,only_very_narrow_window,Only very-narrow partial-window features are available.,MAW-GME,0.005459357296163333,0.0042849095049744546,0.9910048285243603
+True,only_very_narrow_window,Only very-narrow partial-window features are available.,Ridge,0.0057688633148472055,0.004622011023543425,0.9907389771532735
+True,only_very_narrow_window,Only very-narrow partial-window features are available.,HistGB,0.005823673529037218,0.0044944756488466955,0.9900618969064761
+True,only_very_narrow_window,Only very-narrow partial-window features are available.,ExtraTrees,0.005841698440997712,0.004593617310386097,0.9901891644067998
+True,only_very_narrow_window,Only very-narrow partial-window features are available.,LightGBM,0.005916050674601768,0.004544832844413663,0.9897213649052438
+True,only_very_narrow_window,Only very-narrow partial-window features are available.,XGBoost,0.006006499035601599,0.004616809813776393,0.9893286800895069
+True,only_very_narrow_window,Only very-narrow partial-window features are available.,RandomForest,0.006066522216184482,0.00464936437412884,0.989433171410826
+True,only_very_narrow_window,Only very-narrow partial-window features are available.,CatBoost,0.006622078062666241,0.005443329126686106,0.9869339970880023
+True,pmax_features_missing,All pmax-related features are removed from the all-window feature set.,Ridge,0.004918192494338638,0.0043618673833562905,0.9926811282351595
+True,pmax_features_missing,All pmax-related features are removed from the all-window feature set.,XGBoost,0.0056917157699913415,0.004600712983238245,0.9902868674420607
+True,pmax_features_missing,All pmax-related features are removed from the all-window feature set.,HistGB,0.0057929227368708125,0.004683222571345274,0.990520562668973
+True,pmax_features_missing,All pmax-related features are removed from the all-window feature set.,ExtraTrees,0.005811804905214022,0.004686533004744744,0.9904604692791305
+True,pmax_features_missing,All pmax-related features are removed from the all-window feature set.,RandomForest,0.005869737227783398,0.004795107663485469,0.9901268353475606
+True,pmax_features_missing,All pmax-related features are removed from the all-window feature set.,LightGBM,0.0059386139557576385,0.004659505518846925,0.9900638408966888
+True,pmax_features_missing,All pmax-related features are removed from the all-window feature set.,MAW-GME,0.005964424102569572,0.004859610302582481,0.9887630568276327
+True,pmax_features_missing,All pmax-related features are removed from the all-window feature set.,CatBoost,0.006496635835345564,0.00537639013711352,0.9872619040383402

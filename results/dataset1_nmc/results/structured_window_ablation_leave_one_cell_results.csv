@@ -1,0 +1,561 @@
+experiment,scenario,description,test_cell,model,exclude_outliers,n_train,n_test,n_features,n_experts,RMSE,MAE,R2
+StructuredWindowAblation,all_windows_available,All window-specific features are available.,Cell01,Ridge,False,47,11,61,,0.011823261227406293,0.009962093411680417,0.9810948753478682
+StructuredWindowAblation,all_windows_available,All window-specific features are available.,Cell03,Ridge,False,48,10,61,,0.018612496355975883,0.01820430312808007,0.8794371792169217
+StructuredWindowAblation,all_windows_available,All window-specific features are available.,Cell10,Ridge,False,46,12,61,,0.00799526126076523,0.007720328149541693,0.9893132134717535
+StructuredWindowAblation,all_windows_available,All window-specific features are available.,Cell11,Ridge,False,43,15,61,,0.010403231014102343,0.008025244354401202,0.9831183145836572
+StructuredWindowAblation,all_windows_available,All window-specific features are available.,Cell12,Ridge,False,48,10,61,,0.014262844235310037,0.012761120624284372,0.9715493677145088
+StructuredWindowAblation,all_windows_available,All window-specific features are available.,Cell01,ExtraTrees,False,47,11,61,,0.009601823228728964,0.008373153145700167,0.9875315523128261
+StructuredWindowAblation,all_windows_available,All window-specific features are available.,Cell03,ExtraTrees,False,48,10,61,,0.02033866889805308,0.020067343619659485,0.8560375590612541
+StructuredWindowAblation,all_windows_available,All window-specific features are available.,Cell10,ExtraTrees,False,46,12,61,,0.006133221477598262,0.00518269556776262,0.993711325584396
+StructuredWindowAblation,all_windows_available,All window-specific features are available.,Cell11,ExtraTrees,False,43,15,61,,0.0037417422627306477,0.002608357967881007,0.9978161286211746
+StructuredWindowAblation,all_windows_available,All window-specific features are available.,Cell12,ExtraTrees,False,48,10,61,,0.01473204417687169,0.012791076524471322,0.9696467171468139
+StructuredWindowAblation,all_windows_available,All window-specific features are available.,Cell01,RandomForest,False,47,11,61,,0.011152417252821041,0.010294885531124594,0.9831793414810921
+StructuredWindowAblation,all_windows_available,All window-specific features are available.,Cell03,RandomForest,False,48,10,61,,0.018354967458587335,0.017978183313767316,0.8827503953996291
+StructuredWindowAblation,all_windows_available,All window-specific features are available.,Cell10,RandomForest,False,46,12,61,,0.0059118842260147296,0.004657666889260624,0.9941570300067831
+StructuredWindowAblation,all_windows_available,All window-specific features are available.,Cell11,RandomForest,False,43,15,61,,0.004310978063629016,0.003671076724863613,0.9971011152877584
+StructuredWindowAblation,all_windows_available,All window-specific features are available.,Cell12,RandomForest,False,48,10,61,,0.014289144467068636,0.012950603833364238,0.9714443468515408
+StructuredWindowAblation,all_windows_available,All window-specific features are available.,Cell01,HistGB,False,47,11,61,,0.036160961366673516,0.030730998044016265,0.8231582064312801
+StructuredWindowAblation,all_windows_available,All window-specific features are available.,Cell03,HistGB,False,48,10,61,,0.045604793823150906,0.0368203255807447,0.27618906098960516
+StructuredWindowAblation,all_windows_available,All window-specific features are available.,Cell10,HistGB,False,46,12,61,,0.03344393296146726,0.027646390957320865,0.8130108087334902
+StructuredWindowAblation,all_windows_available,All window-specific features are available.,Cell11,HistGB,False,43,15,61,,0.032541193377526166,0.02840490213196277,0.8348242568554736
+StructuredWindowAblation,all_windows_available,All window-specific features are available.,Cell12,HistGB,False,48,10,61,,0.03924696881298892,0.03258789727538388,0.7845770918590806
+StructuredWindowAblation,all_windows_available,All window-specific features are available.,Cell01,XGBoost,False,47,11,61,,0.007425356278335281,0.006427650233956659,0.9925434219521253
+StructuredWindowAblation,all_windows_available,All window-specific features are available.,Cell03,XGBoost,False,48,10,61,,0.025585645483711675,0.023479067487737725,0.7721773469486983
+StructuredWindowAblation,all_windows_available,All window-specific features are available.,Cell10,XGBoost,False,46,12,61,,0.010178761254719492,0.007213223478653792,0.982679051482706
+StructuredWindowAblation,all_windows_available,All window-specific features are available.,Cell11,XGBoost,False,43,15,61,,0.011749412626546435,0.009258542196812354,0.9784666484804238
+StructuredWindowAblation,all_windows_available,All window-specific features are available.,Cell12,XGBoost,False,48,10,61,,0.014197143736968227,0.010888079746681522,0.971810874534702
+StructuredWindowAblation,all_windows_available,All window-specific features are available.,Cell01,LightGBM,False,47,11,61,,0.03262290740820939,0.027274070215224603,0.8560703391904125
+StructuredWindowAblation,all_windows_available,All window-specific features are available.,Cell03,LightGBM,False,48,10,61,,0.0466307539924788,0.03772680359464341,0.24325593306334392
+StructuredWindowAblation,all_windows_available,All window-specific features are available.,Cell10,LightGBM,False,46,12,61,,0.03576577749610033,0.030756029843870696,0.78614610940895
+StructuredWindowAblation,all_windows_available,All window-specific features are available.,Cell11,LightGBM,False,43,15,61,,0.028460732023297044,0.02530280283186779,0.873651104351721
+StructuredWindowAblation,all_windows_available,All window-specific features are available.,Cell12,LightGBM,False,48,10,61,,0.037621138098448116,0.031125767638905056,0.8020554708982417
+StructuredWindowAblation,all_windows_available,All window-specific features are available.,Cell01,CatBoost,False,47,11,61,,0.015108101516998035,0.013228437580688751,0.9691308434205903
+StructuredWindowAblation,all_windows_available,All window-specific features are available.,Cell03,CatBoost,False,48,10,61,,0.018307752123030825,0.017905698390679216,0.8833528327734911
+StructuredWindowAblation,all_windows_available,All window-specific features are available.,Cell10,CatBoost,False,46,12,61,,0.008372648274952151,0.006151481255183426,0.9882805424672481
+StructuredWindowAblation,all_windows_available,All window-specific features are available.,Cell11,CatBoost,False,43,15,61,,0.0057745147612019675,0.004672315882263978,0.994798719089748
+StructuredWindowAblation,all_windows_available,All window-specific features are available.,Cell12,CatBoost,False,48,10,61,,0.014222298763395832,0.012419117280638981,0.9717108929591884
+StructuredWindowAblation,all_windows_available,All window-specific features are available.,Cell01,MAW-GME,False,47,11,61,28.0,0.010977026403371701,0.010074291239867078,0.9837042485266637
+StructuredWindowAblation,all_windows_available,All window-specific features are available.,Cell03,MAW-GME,False,48,10,61,28.0,0.018540024479208266,0.017661417851042527,0.8803742274447051
+StructuredWindowAblation,all_windows_available,All window-specific features are available.,Cell10,MAW-GME,False,46,12,61,28.0,0.006949779468687793,0.006472060681992233,0.9919253471069899
+StructuredWindowAblation,all_windows_available,All window-specific features are available.,Cell11,MAW-GME,False,43,15,61,28.0,0.006812870371228462,0.006076631007439426,0.9927599832761271
+StructuredWindowAblation,all_windows_available,All window-specific features are available.,Cell12,MAW-GME,False,48,10,61,28.0,0.015034431099313524,0.0139685510147609,0.9683878785194624
+StructuredWindowAblation,only_full_window,Only full-window features are available.,Cell01,Ridge,False,47,11,19,,0.013322192026427336,0.011585242950567853,0.9759975068981331
+StructuredWindowAblation,only_full_window,Only full-window features are available.,Cell03,Ridge,False,48,10,19,,0.018774335737187432,0.018032276682314254,0.8773314281672415
+StructuredWindowAblation,only_full_window,Only full-window features are available.,Cell10,Ridge,False,46,12,19,,0.010404843561326827,0.00967311854941045,0.9819010689871834
+StructuredWindowAblation,only_full_window,Only full-window features are available.,Cell11,Ridge,False,43,15,19,,0.003375074442367417,0.0030816929802502057,0.9982231693765504
+StructuredWindowAblation,only_full_window,Only full-window features are available.,Cell12,Ridge,False,48,10,19,,0.014108513284280064,0.01265714277214799,0.9721617361444036
+StructuredWindowAblation,only_full_window,Only full-window features are available.,Cell01,ExtraTrees,False,47,11,19,,0.008578455230584366,0.00738754664887319,0.9900477070045529
+StructuredWindowAblation,only_full_window,Only full-window features are available.,Cell03,ExtraTrees,False,48,10,19,,0.017424326954021047,0.01716134586656748,0.894338645812577
+StructuredWindowAblation,only_full_window,Only full-window features are available.,Cell10,ExtraTrees,False,46,12,19,,0.007222528766091326,0.00606408428891995,0.991279118700334
+StructuredWindowAblation,only_full_window,Only full-window features are available.,Cell11,ExtraTrees,False,43,15,19,,0.00510525544798299,0.003966048321168921,0.9959344971212617
+StructuredWindowAblation,only_full_window,Only full-window features are available.,Cell12,ExtraTrees,False,48,10,19,,0.013912762648783219,0.011969886061819701,0.9729288692610935
+StructuredWindowAblation,only_full_window,Only full-window features are available.,Cell01,RandomForest,False,47,11,19,,0.009563153223762532,0.008220385939332579,0.987631779950145
+StructuredWindowAblation,only_full_window,Only full-window features are available.,Cell03,RandomForest,False,48,10,19,,0.01618240569720876,0.01571594466283429,0.90886392540412
+StructuredWindowAblation,only_full_window,Only full-window features are available.,Cell10,RandomForest,False,46,12,19,,0.008580997008226711,0.006732694713817923,0.9876900208894074
+StructuredWindowAblation,only_full_window,Only full-window features are available.,Cell11,RandomForest,False,43,15,19,,0.00544687026034222,0.0045666538069725725,0.9953722128078569
+StructuredWindowAblation,only_full_window,Only full-window features are available.,Cell12,RandomForest,False,48,10,19,,0.014694231326885049,0.01272268255287945,0.9698023331842852
+StructuredWindowAblation,only_full_window,Only full-window features are available.,Cell01,HistGB,False,47,11,19,,0.026525708404005782,0.02018447077508106,0.9048433909785951
+StructuredWindowAblation,only_full_window,Only full-window features are available.,Cell03,HistGB,False,48,10,19,,0.03291859672876782,0.026508472772863157,0.6228737381998958
+StructuredWindowAblation,only_full_window,Only full-window features are available.,Cell10,HistGB,False,46,12,19,,0.04025247052784154,0.035303576152987154,0.7291262649417412
+StructuredWindowAblation,only_full_window,Only full-window features are available.,Cell11,HistGB,False,43,15,19,,0.034652759282121824,0.02966677993600202,0.8126925887921975
+StructuredWindowAblation,only_full_window,Only full-window features are available.,Cell12,HistGB,False,48,10,19,,0.04179464958141948,0.03587193602384904,0.7557013761095903
+StructuredWindowAblation,only_full_window,Only full-window features are available.,Cell01,XGBoost,False,47,11,19,,0.006777493348690601,0.005725046937156566,0.9937878322446201
+StructuredWindowAblation,only_full_window,Only full-window features are available.,Cell03,XGBoost,False,48,10,19,,0.025129452173259854,0.022417622013113092,0.7802290977971975
+StructuredWindowAblation,only_full_window,Only full-window features are available.,Cell10,XGBoost,False,46,12,19,,0.010958258870624155,0.008227590973163335,0.9799245667662041
+StructuredWindowAblation,only_full_window,Only full-window features are available.,Cell11,XGBoost,False,43,15,19,,0.012266835133771975,0.009179746789537516,0.9765283092333844
+StructuredWindowAblation,only_full_window,Only full-window features are available.,Cell12,XGBoost,False,48,10,19,,0.014625216865603578,0.01148462474255777,0.9700853260836337
+StructuredWindowAblation,only_full_window,Only full-window features are available.,Cell01,LightGBM,False,47,11,19,,0.031766204650877886,0.02520414103408365,0.8635304894637998
+StructuredWindowAblation,only_full_window,Only full-window features are available.,Cell03,LightGBM,False,48,10,19,,0.03454454878847771,0.028716793673774277,0.58469878861468
+StructuredWindowAblation,only_full_window,Only full-window features are available.,Cell10,LightGBM,False,46,12,19,,0.04338134622790428,0.037601041348606486,0.6853788855840371
+StructuredWindowAblation,only_full_window,Only full-window features are available.,Cell11,LightGBM,False,43,15,19,,0.03878708385807894,0.0334569243841921,0.7653321597910488
+StructuredWindowAblation,only_full_window,Only full-window features are available.,Cell12,LightGBM,False,48,10,19,,0.041747846088669174,0.03432355976543523,0.7562482225036427
+StructuredWindowAblation,only_full_window,Only full-window features are available.,Cell01,CatBoost,False,47,11,19,,0.014861423953897902,0.01241194774446515,0.9701306465479625
+StructuredWindowAblation,only_full_window,Only full-window features are available.,Cell03,CatBoost,False,48,10,19,,0.019040652108345275,0.017817088096830035,0.8738266060672313
+StructuredWindowAblation,only_full_window,Only full-window features are available.,Cell10,CatBoost,False,46,12,19,,0.009114713450953563,0.0072867303973919535,0.9861110998884137
+StructuredWindowAblation,only_full_window,Only full-window features are available.,Cell11,CatBoost,False,43,15,19,,0.008440140053313923,0.006655142357098306,0.988888348178634
+StructuredWindowAblation,only_full_window,Only full-window features are available.,Cell12,CatBoost,False,48,10,19,,0.016356594585659242,0.014114846340686715,0.9625833050900233
+StructuredWindowAblation,only_full_window,Only full-window features are available.,Cell01,MAW-GME,False,47,11,19,7.0,0.009583218164982577,0.008809932107161623,0.9875798247113101
+StructuredWindowAblation,only_full_window,Only full-window features are available.,Cell03,MAW-GME,False,48,10,19,7.0,0.018451084639496518,0.017769346588566028,0.8815192072968849
+StructuredWindowAblation,only_full_window,Only full-window features are available.,Cell10,MAW-GME,False,46,12,19,7.0,0.007245312617443037,0.006773045289205369,0.9912240109487352
+StructuredWindowAblation,only_full_window,Only full-window features are available.,Cell11,MAW-GME,False,43,15,19,7.0,0.005344572604356868,0.004410450308057423,0.9955444093857171
+StructuredWindowAblation,only_full_window,Only full-window features are available.,Cell12,MAW-GME,False,48,10,19,7.0,0.013276626235228926,0.012172295367527586,0.9753478329344546
+StructuredWindowAblation,only_medium_window,Only medium partial-window features are available.,Cell01,Ridge,False,47,11,19,,0.013669156427511438,0.011309846183391975,0.9747309798331367
+StructuredWindowAblation,only_medium_window,Only medium partial-window features are available.,Cell03,Ridge,False,48,10,19,,0.020864093517530873,0.018290118652814224,0.8485032938868887
+StructuredWindowAblation,only_medium_window,Only medium partial-window features are available.,Cell10,Ridge,False,46,12,19,,0.008810439713240898,0.007323813077677904,0.987022919984287
+StructuredWindowAblation,only_medium_window,Only medium partial-window features are available.,Cell11,Ridge,False,43,15,19,,0.009247104444656715,0.00758371110900428,0.9866619959816658
+StructuredWindowAblation,only_medium_window,Only medium partial-window features are available.,Cell12,Ridge,False,48,10,19,,0.01721324165689165,0.015970536501805542,0.9585614094150734
+StructuredWindowAblation,only_medium_window,Only medium partial-window features are available.,Cell01,ExtraTrees,False,47,11,19,,0.010192271116734772,0.00875107325545621,0.985950951560252
+StructuredWindowAblation,only_medium_window,Only medium partial-window features are available.,Cell03,ExtraTrees,False,48,10,19,,0.01710921216794831,0.015611960462526265,0.8981258090054093
+StructuredWindowAblation,only_medium_window,Only medium partial-window features are available.,Cell10,ExtraTrees,False,46,12,19,,0.007775292048891581,0.005867686496996242,0.9898931635941696
+StructuredWindowAblation,only_medium_window,Only medium partial-window features are available.,Cell11,ExtraTrees,False,43,15,19,,0.0042132917992743655,0.0036073129644835183,0.9972310035810286
+StructuredWindowAblation,only_medium_window,Only medium partial-window features are available.,Cell12,ExtraTrees,False,48,10,19,,0.013729917951552685,0.011658196261511855,0.9736357435238849
+StructuredWindowAblation,only_medium_window,Only medium partial-window features are available.,Cell01,RandomForest,False,47,11,19,,0.012007519827338409,0.011125026719562866,0.980501033199853
+StructuredWindowAblation,only_medium_window,Only medium partial-window features are available.,Cell03,RandomForest,False,48,10,19,,0.01754127561405002,0.015816467247711373,0.8929155294368201
+StructuredWindowAblation,only_medium_window,Only medium partial-window features are available.,Cell10,RandomForest,False,46,12,19,,0.007633370362571492,0.005932351268149986,0.990258754612778
+StructuredWindowAblation,only_medium_window,Only medium partial-window features are available.,Cell11,RandomForest,False,43,15,19,,0.005384697511571151,0.0046368521624896575,0.9954772566765557
+StructuredWindowAblation,only_medium_window,Only medium partial-window features are available.,Cell12,RandomForest,False,48,10,19,,0.014964331906878032,0.01326073094573701,0.9686819791839862
+StructuredWindowAblation,only_medium_window,Only medium partial-window features are available.,Cell01,HistGB,False,47,11,19,,0.03873914563679734,0.03372806040782227,0.7970425246875147
+StructuredWindowAblation,only_medium_window,Only medium partial-window features are available.,Cell03,HistGB,False,48,10,19,,0.043878456258677714,0.03551928885206619,0.32995059092787105
+StructuredWindowAblation,only_medium_window,Only medium partial-window features are available.,Cell10,HistGB,False,46,12,19,,0.045682912459416095,0.03626282838805538,0.6511093081528267
+StructuredWindowAblation,only_medium_window,Only medium partial-window features are available.,Cell11,HistGB,False,43,15,19,,0.03967213398904854,0.03440479547987671,0.7545005959674362
+StructuredWindowAblation,only_medium_window,Only medium partial-window features are available.,Cell12,HistGB,False,48,10,19,,0.04311041177917051,0.03680785168853802,0.7400774337168672
+StructuredWindowAblation,only_medium_window,Only medium partial-window features are available.,Cell01,XGBoost,False,47,11,19,,0.01282839045124698,0.010173160569191849,0.9777438871539431
+StructuredWindowAblation,only_medium_window,Only medium partial-window features are available.,Cell03,XGBoost,False,48,10,19,,0.02324069662748816,0.021331911487600396,0.8120239876644737
+StructuredWindowAblation,only_medium_window,Only medium partial-window features are available.,Cell10,XGBoost,False,46,12,19,,0.010244032750691818,0.007509754680272651,0.9824561974290436
+StructuredWindowAblation,only_medium_window,Only medium partial-window features are available.,Cell11,XGBoost,False,43,15,19,,0.014103163021303981,0.011708148530141438,0.9689749585714343
+StructuredWindowAblation,only_medium_window,Only medium partial-window features are available.,Cell12,XGBoost,False,48,10,19,,0.013478004552815328,0.01010838542791016,0.9745943189542716
+StructuredWindowAblation,only_medium_window,Only medium partial-window features are available.,Cell01,LightGBM,False,47,11,19,,0.04320424316242106,0.03792255707872938,0.7475602285093967
+StructuredWindowAblation,only_medium_window,Only medium partial-window features are available.,Cell03,LightGBM,False,48,10,19,,0.0463746431217921,0.03744411446243033,0.2515456616788875
+StructuredWindowAblation,only_medium_window,Only medium partial-window features are available.,Cell10,LightGBM,False,46,12,19,,0.04330147708008237,0.03565854088445114,0.686536313395335
+StructuredWindowAblation,only_medium_window,Only medium partial-window features are available.,Cell11,LightGBM,False,43,15,19,,0.03821374947998991,0.03348089893418216,0.7722184088643516
+StructuredWindowAblation,only_medium_window,Only medium partial-window features are available.,Cell12,LightGBM,False,48,10,19,,0.04062345409255517,0.03479428986315507,0.7692013103405905
+StructuredWindowAblation,only_medium_window,Only medium partial-window features are available.,Cell01,CatBoost,False,47,11,19,,0.018256642966087807,0.015472436715338843,0.9549238495476542
+StructuredWindowAblation,only_medium_window,Only medium partial-window features are available.,Cell03,CatBoost,False,48,10,19,,0.021011104858581233,0.019280047238131724,0.8463608381124804
+StructuredWindowAblation,only_medium_window,Only medium partial-window features are available.,Cell10,CatBoost,False,46,12,19,,0.009957320840732952,0.006336452707087816,0.983424493164162
+StructuredWindowAblation,only_medium_window,Only medium partial-window features are available.,Cell11,CatBoost,False,43,15,19,,0.008979567218248106,0.007387069451979133,0.9874226215299413
+StructuredWindowAblation,only_medium_window,Only medium partial-window features are available.,Cell12,CatBoost,False,48,10,19,,0.01687437579551954,0.015063963763647704,0.9601768988045313
+StructuredWindowAblation,only_medium_window,Only medium partial-window features are available.,Cell01,MAW-GME,False,47,11,19,7.0,0.012843536654033514,0.012394558370483876,0.9776913015080003
+StructuredWindowAblation,only_medium_window,Only medium partial-window features are available.,Cell03,MAW-GME,False,48,10,19,7.0,0.020312825177899924,0.01862876238961706,0.856403183898999
+StructuredWindowAblation,only_medium_window,Only medium partial-window features are available.,Cell10,MAW-GME,False,46,12,19,7.0,0.007961113974441806,0.007141496513946651,0.9894043037967813
+StructuredWindowAblation,only_medium_window,Only medium partial-window features are available.,Cell11,MAW-GME,False,43,15,19,7.0,0.007922764590402724,0.007046237784577987,0.9902088698883579
+StructuredWindowAblation,only_medium_window,Only medium partial-window features are available.,Cell12,MAW-GME,False,48,10,19,7.0,0.01456486715437749,0.013451941875198182,0.9703316974234919
+StructuredWindowAblation,only_narrow_window,Only narrow partial-window features are available.,Cell01,Ridge,False,47,11,19,,0.010198050696173636,0.008514371224599394,0.9859350138732886
+StructuredWindowAblation,only_narrow_window,Only narrow partial-window features are available.,Cell03,Ridge,False,48,10,19,,0.01786208770314376,0.01726574624582349,0.8889627789908857
+StructuredWindowAblation,only_narrow_window,Only narrow partial-window features are available.,Cell10,Ridge,False,46,12,19,,0.005871942179803576,0.005078284827715783,0.9942357161865442
+StructuredWindowAblation,only_narrow_window,Only narrow partial-window features are available.,Cell11,Ridge,False,43,15,19,,0.006509694636371579,0.005644399029021437,0.993390013820652
+StructuredWindowAblation,only_narrow_window,Only narrow partial-window features are available.,Cell12,Ridge,False,48,10,19,,0.012191147778313621,0.011098232651318485,0.9792140999121608
+StructuredWindowAblation,only_narrow_window,Only narrow partial-window features are available.,Cell01,ExtraTrees,False,47,11,19,,0.010992010813252098,0.00930759925002172,0.9836597284766387
+StructuredWindowAblation,only_narrow_window,Only narrow partial-window features are available.,Cell03,ExtraTrees,False,48,10,19,,0.019196122969388028,0.018821490222163017,0.8717577303165979
+StructuredWindowAblation,only_narrow_window,Only narrow partial-window features are available.,Cell10,ExtraTrees,False,46,12,19,,0.004894801969644845,0.003963393328587972,0.9959945430617896
+StructuredWindowAblation,only_narrow_window,Only narrow partial-window features are available.,Cell11,ExtraTrees,False,43,15,19,,0.005335285045798314,0.004745810725556658,0.9955598813818131
+StructuredWindowAblation,only_narrow_window,Only narrow partial-window features are available.,Cell12,ExtraTrees,False,48,10,19,,0.012435970038206913,0.011449336069505878,0.9783708736297904
+StructuredWindowAblation,only_narrow_window,Only narrow partial-window features are available.,Cell01,RandomForest,False,47,11,19,,0.011300872758432506,0.00970936447074528,0.9827285442194865
+StructuredWindowAblation,only_narrow_window,Only narrow partial-window features are available.,Cell03,RandomForest,False,48,10,19,,0.01787490957597947,0.017622332171895193,0.8888033109446157
+StructuredWindowAblation,only_narrow_window,Only narrow partial-window features are available.,Cell10,RandomForest,False,46,12,19,,0.00546032735796894,0.004665544639049317,0.9950155278299655
+StructuredWindowAblation,only_narrow_window,Only narrow partial-window features are available.,Cell11,RandomForest,False,43,15,19,,0.0038489022630719474,0.0034167505325558714,0.9976892493492101
+StructuredWindowAblation,only_narrow_window,Only narrow partial-window features are available.,Cell12,RandomForest,False,48,10,19,,0.015558071503350236,0.012690897959388391,0.9661474669900777
+StructuredWindowAblation,only_narrow_window,Only narrow partial-window features are available.,Cell01,HistGB,False,47,11,19,,0.036816903030616216,0.029064319870212862,0.816684375664134
+StructuredWindowAblation,only_narrow_window,Only narrow partial-window features are available.,Cell03,HistGB,False,48,10,19,,0.03205357168773338,0.026027561904147577,0.6424333481582178
+StructuredWindowAblation,only_narrow_window,Only narrow partial-window features are available.,Cell10,HistGB,False,46,12,19,,0.03671866055809371,0.03134707178570734,0.7745991883068175
+StructuredWindowAblation,only_narrow_window,Only narrow partial-window features are available.,Cell11,HistGB,False,43,15,19,,0.05418921177680488,0.0442909626052977,0.5419583337543923
+StructuredWindowAblation,only_narrow_window,Only narrow partial-window features are available.,Cell12,HistGB,False,48,10,19,,0.042988807623535456,0.033214697249341917,0.7415417243173101
+StructuredWindowAblation,only_narrow_window,Only narrow partial-window features are available.,Cell01,XGBoost,False,47,11,19,,0.009695854220282272,0.007819165148650088,0.9872861486538295
+StructuredWindowAblation,only_narrow_window,Only narrow partial-window features are available.,Cell03,XGBoost,False,48,10,19,,0.02278285465917604,0.022067456645986628,0.8193572948210666
+StructuredWindowAblation,only_narrow_window,Only narrow partial-window features are available.,Cell10,XGBoost,False,46,12,19,,0.006334571577053517,0.004832944527406846,0.9932916407766529
+StructuredWindowAblation,only_narrow_window,Only narrow partial-window features are available.,Cell11,XGBoost,False,43,15,19,,0.01866105975594344,0.015785685254613553,0.9456809801048448
+StructuredWindowAblation,only_narrow_window,Only narrow partial-window features are available.,Cell12,XGBoost,False,48,10,19,,0.009187324774844312,0.00747962868623796,0.9881952231416875
+StructuredWindowAblation,only_narrow_window,Only narrow partial-window features are available.,Cell01,LightGBM,False,47,11,19,,0.03852013413735169,0.03125824107007762,0.7993308752082009
+StructuredWindowAblation,only_narrow_window,Only narrow partial-window features are available.,Cell03,LightGBM,False,48,10,19,,0.031720325500231836,0.024983608034889936,0.6498296103119241
+StructuredWindowAblation,only_narrow_window,Only narrow partial-window features are available.,Cell10,LightGBM,False,46,12,19,,0.040882237457507194,0.03554541192701127,0.7205840923199455
+StructuredWindowAblation,only_narrow_window,Only narrow partial-window features are available.,Cell11,LightGBM,False,43,15,19,,0.05064444866304733,0.04532197529732509,0.5999235267303653
+StructuredWindowAblation,only_narrow_window,Only narrow partial-window features are available.,Cell12,LightGBM,False,48,10,19,,0.03672991511082004,0.02995860517462845,0.8113227693303632
+StructuredWindowAblation,only_narrow_window,Only narrow partial-window features are available.,Cell01,CatBoost,False,47,11,19,,0.014765769277107687,0.012214805766302567,0.9705139137829302
+StructuredWindowAblation,only_narrow_window,Only narrow partial-window features are available.,Cell03,CatBoost,False,48,10,19,,0.020448032228121502,0.018674299277764816,0.8544851918702773
+StructuredWindowAblation,only_narrow_window,Only narrow partial-window features are available.,Cell10,CatBoost,False,46,12,19,,0.0063852128583914034,0.0046249406719775605,0.9931839530393224
+StructuredWindowAblation,only_narrow_window,Only narrow partial-window features are available.,Cell11,CatBoost,False,43,15,19,,0.008031550542579808,0.006841158105223603,0.9899381436795932
+StructuredWindowAblation,only_narrow_window,Only narrow partial-window features are available.,Cell12,CatBoost,False,48,10,19,,0.01788225669980042,0.014341487388778662,0.9552776831944831
+StructuredWindowAblation,only_narrow_window,Only narrow partial-window features are available.,Cell01,MAW-GME,False,47,11,19,7.0,0.010704840508252931,0.009026071126132629,0.9845023668200372
+StructuredWindowAblation,only_narrow_window,Only narrow partial-window features are available.,Cell03,MAW-GME,False,48,10,19,7.0,0.01864393491770858,0.018273065320447403,0.8790295474036227
+StructuredWindowAblation,only_narrow_window,Only narrow partial-window features are available.,Cell10,MAW-GME,False,46,12,19,7.0,0.005342840574901106,0.004601628808139034,0.9952277163845636
+StructuredWindowAblation,only_narrow_window,Only narrow partial-window features are available.,Cell11,MAW-GME,False,43,15,19,7.0,0.00802330463629166,0.006442340040099389,0.9899587938721334
+StructuredWindowAblation,only_narrow_window,Only narrow partial-window features are available.,Cell12,MAW-GME,False,48,10,19,7.0,0.012983738692605648,0.012067457685327753,0.9764235084942059
+StructuredWindowAblation,only_very_narrow_window,Only very-narrow partial-window features are available.,Cell01,Ridge,False,47,11,19,,0.02002884142206704,0.018035862104379283,0.9457478903242051
+StructuredWindowAblation,only_very_narrow_window,Only very-narrow partial-window features are available.,Cell03,Ridge,False,48,10,19,,0.025473521084611723,0.023726646853338716,0.7741697536750185
+StructuredWindowAblation,only_very_narrow_window,Only very-narrow partial-window features are available.,Cell10,Ridge,False,46,12,19,,0.011254244844423797,0.009638066506024537,0.9788254332289132
+StructuredWindowAblation,only_very_narrow_window,Only very-narrow partial-window features are available.,Cell11,Ridge,False,43,15,19,,0.01930303476329002,0.018108263146541095,0.9418793445130702
+StructuredWindowAblation,only_very_narrow_window,Only very-narrow partial-window features are available.,Cell12,Ridge,False,48,10,19,,0.027126410930242456,0.024382600919087505,0.8970884031862604
+StructuredWindowAblation,only_very_narrow_window,Only very-narrow partial-window features are available.,Cell01,ExtraTrees,False,47,11,19,,0.0118651163929501,0.010065158494461506,0.9809607875197018
+StructuredWindowAblation,only_very_narrow_window,Only very-narrow partial-window features are available.,Cell03,ExtraTrees,False,48,10,19,,0.014409979612551978,0.012501633737680406,0.9277345216456797
+StructuredWindowAblation,only_very_narrow_window,Only very-narrow partial-window features are available.,Cell10,ExtraTrees,False,46,12,19,,0.008970492915876191,0.006073619634071843,0.9865471459679642
+StructuredWindowAblation,only_very_narrow_window,Only very-narrow partial-window features are available.,Cell11,ExtraTrees,False,43,15,19,,0.0072244920090825705,0.005074246755336335,0.9918586964441338
+StructuredWindowAblation,only_very_narrow_window,Only very-narrow partial-window features are available.,Cell12,ExtraTrees,False,48,10,19,,0.019098878577095444,0.01606212046737705,0.9489852950371775
+StructuredWindowAblation,only_very_narrow_window,Only very-narrow partial-window features are available.,Cell01,RandomForest,False,47,11,19,,0.014049237084580378,0.01224932041172657,0.9733061965884662
+StructuredWindowAblation,only_very_narrow_window,Only very-narrow partial-window features are available.,Cell03,RandomForest,False,48,10,19,,0.013859400568915431,0.011186703877809867,0.9331512881173774
+StructuredWindowAblation,only_very_narrow_window,Only very-narrow partial-window features are available.,Cell10,RandomForest,False,46,12,19,,0.009142624586950867,0.00651984472586839,0.9860259082865532
+StructuredWindowAblation,only_very_narrow_window,Only very-narrow partial-window features are available.,Cell11,RandomForest,False,43,15,19,,0.009215106024354255,0.007125180205586316,0.9867541451784901
+StructuredWindowAblation,only_very_narrow_window,Only very-narrow partial-window features are available.,Cell12,RandomForest,False,48,10,19,,0.022351058419253382,0.01820975233354808,0.9301323990124987
+StructuredWindowAblation,only_very_narrow_window,Only very-narrow partial-window features are available.,Cell01,HistGB,False,47,11,19,,0.03702358081385916,0.029479356523214883,0.8146204535540144
+StructuredWindowAblation,only_very_narrow_window,Only very-narrow partial-window features are available.,Cell03,HistGB,False,48,10,19,,0.031332049983954266,0.024648592238849708,0.6583497282817611
+StructuredWindowAblation,only_very_narrow_window,Only very-narrow partial-window features are available.,Cell10,HistGB,False,46,12,19,,0.041571683917228805,0.03342484725619654,0.7110803713803201
+StructuredWindowAblation,only_very_narrow_window,Only very-narrow partial-window features are available.,Cell11,HistGB,False,43,15,19,,0.05122442443848839,0.04512415946762125,0.5907077769585949
+StructuredWindowAblation,only_very_narrow_window,Only very-narrow partial-window features are available.,Cell12,HistGB,False,48,10,19,,0.03919863329324102,0.03186035283796147,0.7851073833245643
+StructuredWindowAblation,only_very_narrow_window,Only very-narrow partial-window features are available.,Cell01,XGBoost,False,47,11,19,,0.00850363486047592,0.007014608902386083,0.9902205555921478
+StructuredWindowAblation,only_very_narrow_window,Only very-narrow partial-window features are available.,Cell03,XGBoost,False,48,10,19,,0.022577597111081312,0.01843378567299726,0.8225975607710448
+StructuredWindowAblation,only_very_narrow_window,Only very-narrow partial-window features are available.,Cell10,XGBoost,False,46,12,19,,0.013293872199177914,0.008761598171252771,0.9704549442660554
+StructuredWindowAblation,only_very_narrow_window,Only very-narrow partial-window features are available.,Cell11,XGBoost,False,43,15,19,,0.0188072930229915,0.016303118195172658,0.9448263265537205
+StructuredWindowAblation,only_very_narrow_window,Only very-narrow partial-window features are available.,Cell12,XGBoost,False,48,10,19,,0.02243718053510112,0.018370673998314213,0.9295929401632859
+StructuredWindowAblation,only_very_narrow_window,Only very-narrow partial-window features are available.,Cell01,LightGBM,False,47,11,19,,0.03895857646249948,0.032678224070064536,0.7947367816874079
+StructuredWindowAblation,only_very_narrow_window,Only very-narrow partial-window features are available.,Cell03,LightGBM,False,48,10,19,,0.031745761902593615,0.02449235415686426,0.649267784664761
+StructuredWindowAblation,only_very_narrow_window,Only very-narrow partial-window features are available.,Cell10,LightGBM,False,46,12,19,,0.04330461735900259,0.03287349045974525,0.6864908461657009
+StructuredWindowAblation,only_very_narrow_window,Only very-narrow partial-window features are available.,Cell11,LightGBM,False,43,15,19,,0.047553259363827205,0.043312388263868386,0.6472720316970173
+StructuredWindowAblation,only_very_narrow_window,Only very-narrow partial-window features are available.,Cell12,LightGBM,False,48,10,19,,0.040601653837775226,0.034860440492822976,0.7694489564504792
+StructuredWindowAblation,only_very_narrow_window,Only very-narrow partial-window features are available.,Cell01,CatBoost,False,47,11,19,,0.017639077286812774,0.014567481617791422,0.9579218438236183
+StructuredWindowAblation,only_very_narrow_window,Only very-narrow partial-window features are available.,Cell03,CatBoost,False,48,10,19,,0.01545725281100538,0.013487228547128305,0.9168487525006139
+StructuredWindowAblation,only_very_narrow_window,Only very-narrow partial-window features are available.,Cell10,CatBoost,False,46,12,19,,0.011524724459060085,0.00855552332616874,0.9777954019260638
+StructuredWindowAblation,only_very_narrow_window,Only very-narrow partial-window features are available.,Cell11,CatBoost,False,43,15,19,,0.009839522963433486,0.007024122862783244,0.9848982455232039
+StructuredWindowAblation,only_very_narrow_window,Only very-narrow partial-window features are available.,Cell12,CatBoost,False,48,10,19,,0.023621168931109698,0.01947843582844132,0.9219662612877135
+StructuredWindowAblation,only_very_narrow_window,Only very-narrow partial-window features are available.,Cell01,MAW-GME,False,47,11,19,7.0,0.012893542782661364,0.011035205275024733,0.9775172461200419
+StructuredWindowAblation,only_very_narrow_window,Only very-narrow partial-window features are available.,Cell03,MAW-GME,False,48,10,19,7.0,0.0180796063794387,0.014735226203230645,0.8862419625442625
+StructuredWindowAblation,only_very_narrow_window,Only very-narrow partial-window features are available.,Cell10,MAW-GME,False,46,12,19,7.0,0.009644487654398917,0.007916258330813894,0.9844496510928803
+StructuredWindowAblation,only_very_narrow_window,Only very-narrow partial-window features are available.,Cell11,MAW-GME,False,43,15,19,7.0,0.012345017982756121,0.010082884330545732,0.9762281614608777
+StructuredWindowAblation,only_very_narrow_window,Only very-narrow partial-window features are available.,Cell12,MAW-GME,False,48,10,19,7.0,0.021705855859634613,0.019080453821929966,0.934107881107141
+StructuredWindowAblation,pmax_features_missing,All pmax-related features are removed from the all-window feature set.,Cell01,Ridge,False,47,11,49,,0.014158509407475497,0.012562456055881304,0.9728893430021724
+StructuredWindowAblation,pmax_features_missing,All pmax-related features are removed from the all-window feature set.,Cell03,Ridge,False,48,10,49,,0.020518715417492967,0.020206919023415638,0.8534774442686466
+StructuredWindowAblation,pmax_features_missing,All pmax-related features are removed from the all-window feature set.,Cell10,Ridge,False,46,12,49,,0.010440354908450985,0.009501080695458686,0.9817773161977447
+StructuredWindowAblation,pmax_features_missing,All pmax-related features are removed from the all-window feature set.,Cell11,Ridge,False,43,15,49,,0.018249660106725372,0.01632777898187913,0.9480496020589739
+StructuredWindowAblation,pmax_features_missing,All pmax-related features are removed from the all-window feature set.,Cell12,Ridge,False,48,10,49,,0.015228482982214724,0.013838047194776415,0.9675665663649929
+StructuredWindowAblation,pmax_features_missing,All pmax-related features are removed from the all-window feature set.,Cell01,ExtraTrees,False,47,11,49,,0.009546539019843071,0.008469039197148294,0.9876747175935101
+StructuredWindowAblation,pmax_features_missing,All pmax-related features are removed from the all-window feature set.,Cell03,ExtraTrees,False,48,10,49,,0.020872793030143395,0.02062223867137779,0.8483769311219966
+StructuredWindowAblation,pmax_features_missing,All pmax-related features are removed from the all-window feature set.,Cell10,ExtraTrees,False,46,12,49,,0.0062429525393566014,0.00518295878507206,0.9934842879758966
+StructuredWindowAblation,pmax_features_missing,All pmax-related features are removed from the all-window feature set.,Cell11,ExtraTrees,False,43,15,49,,0.005038212079262946,0.0038726438928007017,0.9960405742093269
+StructuredWindowAblation,pmax_features_missing,All pmax-related features are removed from the all-window feature set.,Cell12,ExtraTrees,False,48,10,49,,0.015005416488163056,0.012409565367771469,0.9685097758299169
+StructuredWindowAblation,pmax_features_missing,All pmax-related features are removed from the all-window feature set.,Cell01,RandomForest,False,47,11,49,,0.010749469344915785,0.009834378464117256,0.9843728771602507
+StructuredWindowAblation,pmax_features_missing,All pmax-related features are removed from the all-window feature set.,Cell03,RandomForest,False,48,10,49,,0.021743527778548155,0.021374980022816237,0.8354627766070533
+StructuredWindowAblation,pmax_features_missing,All pmax-related features are removed from the all-window feature set.,Cell10,RandomForest,False,46,12,49,,0.006402835796336506,0.005261907030298829,0.993146277072414
+StructuredWindowAblation,pmax_features_missing,All pmax-related features are removed from the all-window feature set.,Cell11,RandomForest,False,43,15,49,,0.004425988188097222,0.003471950166429627,0.9969443766565937
+StructuredWindowAblation,pmax_features_missing,All pmax-related features are removed from the all-window feature set.,Cell12,RandomForest,False,48,10,49,,0.014388877295223472,0.012671945668831541,0.9710443404251874
+StructuredWindowAblation,pmax_features_missing,All pmax-related features are removed from the all-window feature set.,Cell01,HistGB,False,47,11,49,,0.03714068434292171,0.03152910588483834,0.8134459085654803
+StructuredWindowAblation,pmax_features_missing,All pmax-related features are removed from the all-window feature set.,Cell03,HistGB,False,48,10,49,,0.04398700258732704,0.03203951433968002,0.3266313599937134
+StructuredWindowAblation,pmax_features_missing,All pmax-related features are removed from the all-window feature set.,Cell10,HistGB,False,46,12,49,,0.03431573025586149,0.02989671953506189,0.8031350932286331
+StructuredWindowAblation,pmax_features_missing,All pmax-related features are removed from the all-window feature set.,Cell11,HistGB,False,43,15,49,,0.024103320597330367,0.021874972029960582,0.9093781189380022
+StructuredWindowAblation,pmax_features_missing,All pmax-related features are removed from the all-window feature set.,Cell12,HistGB,False,48,10,49,,0.03833790017822172,0.033441075662029404,0.7944410983379612
+StructuredWindowAblation,pmax_features_missing,All pmax-related features are removed from the all-window feature set.,Cell01,XGBoost,False,47,11,49,,0.0050389940098765065,0.0037859257435396724,0.9965660603438806
+StructuredWindowAblation,pmax_features_missing,All pmax-related features are removed from the all-window feature set.,Cell03,XGBoost,False,48,10,49,,0.02384927330233498,0.023218815727254937,0.8020504813919633
+StructuredWindowAblation,pmax_features_missing,All pmax-related features are removed from the all-window feature set.,Cell10,XGBoost,False,46,12,49,,0.012653223884212033,0.009942610318446843,0.9732339552485877
+StructuredWindowAblation,pmax_features_missing,All pmax-related features are removed from the all-window feature set.,Cell11,XGBoost,False,43,15,49,,0.008950419549956064,0.006546677567899328,0.9875041413299575
+StructuredWindowAblation,pmax_features_missing,All pmax-related features are removed from the all-window feature set.,Cell12,XGBoost,False,48,10,49,,0.008945705082258124,0.006722263739143452,0.9888079717704801
+StructuredWindowAblation,pmax_features_missing,All pmax-related features are removed from the all-window feature set.,Cell01,LightGBM,False,47,11,49,,0.03719043184233532,0.0310933485789235,0.8129458200456083
+StructuredWindowAblation,pmax_features_missing,All pmax-related features are removed from the all-window feature set.,Cell03,LightGBM,False,48,10,49,,0.04456504729983416,0.03277926940680481,0.3088172470642444
+StructuredWindowAblation,pmax_features_missing,All pmax-related features are removed from the all-window feature set.,Cell10,LightGBM,False,46,12,49,,0.038410486152733986,0.03384010622424639,0.7533498279272538
+StructuredWindowAblation,pmax_features_missing,All pmax-related features are removed from the all-window feature set.,Cell11,LightGBM,False,43,15,49,,0.0263460900374187,0.022184379436530354,0.8917291213053365
+StructuredWindowAblation,pmax_features_missing,All pmax-related features are removed from the all-window feature set.,Cell12,LightGBM,False,48,10,49,,0.03799077735660446,0.03240427648382466,0.7981466301770215
+StructuredWindowAblation,pmax_features_missing,All pmax-related features are removed from the all-window feature set.,Cell01,CatBoost,False,47,11,49,,0.01381993366525618,0.012656278486147931,0.9741704469149335
+StructuredWindowAblation,pmax_features_missing,All pmax-related features are removed from the all-window feature set.,Cell03,CatBoost,False,48,10,49,,0.020340801859412474,0.01959635996197926,0.8560073621563702
+StructuredWindowAblation,pmax_features_missing,All pmax-related features are removed from the all-window feature set.,Cell10,CatBoost,False,46,12,49,,0.009164137396555288,0.007586428402595713,0.9859600681862989
+StructuredWindowAblation,pmax_features_missing,All pmax-related features are removed from the all-window feature set.,Cell11,CatBoost,False,43,15,49,,0.006249767478604127,0.005237939092152066,0.9939073386732779
+StructuredWindowAblation,pmax_features_missing,All pmax-related features are removed from the all-window feature set.,Cell12,CatBoost,False,48,10,49,,0.013657013074386964,0.011520778861669023,0.9739149847874922
+StructuredWindowAblation,pmax_features_missing,All pmax-related features are removed from the all-window feature set.,Cell01,MAW-GME,False,47,11,49,28.0,0.00991225338628158,0.009114241286218879,0.9867123014904104
+StructuredWindowAblation,pmax_features_missing,All pmax-related features are removed from the all-window feature set.,Cell03,MAW-GME,False,48,10,49,28.0,0.019820220633833485,0.01908624467829686,0.8632834412593324
+StructuredWindowAblation,pmax_features_missing,All pmax-related features are removed from the all-window feature set.,Cell10,MAW-GME,False,46,12,49,28.0,0.00845226036270656,0.008126901253734775,0.9880566118163322
+StructuredWindowAblation,pmax_features_missing,All pmax-related features are removed from the all-window feature set.,Cell11,MAW-GME,False,43,15,49,28.0,0.0032472916807549973,0.0026266051954104102,0.9983551665936976
+StructuredWindowAblation,pmax_features_missing,All pmax-related features are removed from the all-window feature set.,Cell12,MAW-GME,False,48,10,49,28.0,0.01373694162762569,0.012274541302951015,0.9736087628293393
+StructuredWindowAblation,ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",Cell01,Ridge,False,47,11,41,,0.013067132650711638,0.011432106132792007,0.9769077859401049
+StructuredWindowAblation,ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",Cell03,Ridge,False,48,10,41,,0.018590611961777092,0.018137531341609413,0.8797205257510554
+StructuredWindowAblation,ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",Cell10,Ridge,False,46,12,41,,0.009337881822422905,0.009093618822404328,0.9854226506633273
+StructuredWindowAblation,ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",Cell11,Ridge,False,43,15,41,,0.004227830253291771,0.003733280682144713,0.9972118611220486
+StructuredWindowAblation,ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",Cell12,Ridge,False,48,10,41,,0.013581254293474884,0.012794246029354205,0.9742035819787472
+StructuredWindowAblation,ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",Cell01,ExtraTrees,False,47,11,41,,0.00949567965411194,0.008169633072371589,0.9878056941182338
+StructuredWindowAblation,ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",Cell03,ExtraTrees,False,48,10,41,,0.01817214696437127,0.017858885982186136,0.8850744396494288
+StructuredWindowAblation,ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",Cell10,ExtraTrees,False,46,12,41,,0.005390497687118889,0.004287760771559772,0.9951422009801331
+StructuredWindowAblation,ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",Cell11,ExtraTrees,False,43,15,41,,0.0035660160421809757,0.0028069297293435475,0.9980164374361546
+StructuredWindowAblation,ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",Cell12,ExtraTrees,False,48,10,41,,0.01215812571123653,0.01082728132916061,0.9793265526172238
+StructuredWindowAblation,ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",Cell01,RandomForest,False,47,11,41,,0.01172845912787239,0.010458805736004682,0.9813968326709006
+StructuredWindowAblation,ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",Cell03,RandomForest,False,48,10,41,,0.014354802188184074,0.013984923539959537,0.9282868872879573
+StructuredWindowAblation,ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",Cell10,RandomForest,False,46,12,41,,0.00651096466312008,0.005590485602795024,0.9929128358558398
+StructuredWindowAblation,ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",Cell11,RandomForest,False,43,15,41,,0.004569061701929653,0.003521579402427862,0.996743632857997
+StructuredWindowAblation,ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",Cell12,RandomForest,False,48,10,41,,0.013843779993828565,0.01232387218705976,0.9731966534423928
+StructuredWindowAblation,ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",Cell01,HistGB,False,47,11,41,,0.03673289791882868,0.027817673844204617,0.8175199636571426
+StructuredWindowAblation,ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",Cell03,HistGB,False,48,10,41,,0.03100847038666166,0.02610409914725652,0.6653700287831696
+StructuredWindowAblation,ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",Cell10,HistGB,False,46,12,41,,0.03996954913612793,0.03169482667687818,0.7329206481712456
+StructuredWindowAblation,ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",Cell11,HistGB,False,43,15,41,,0.043871431814528634,0.03848639326407023,0.6997777087548922
+StructuredWindowAblation,ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",Cell12,HistGB,False,48,10,41,,0.03959956585081406,0.03515925267789627,0.7806889606330818
+StructuredWindowAblation,ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",Cell01,XGBoost,False,47,11,41,,0.008329535586201899,0.0072758101074215506,0.990616895548023
+StructuredWindowAblation,ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",Cell03,XGBoost,False,48,10,41,,0.025161644098664213,0.023564951820394586,0.7796656648949715
+StructuredWindowAblation,ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",Cell10,XGBoost,False,46,12,41,,0.010395093101532343,0.008034594616115776,0.9819349743911544
+StructuredWindowAblation,ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",Cell11,XGBoost,False,43,15,41,,0.012271197986310422,0.009532135463617367,0.9765116102666062
+StructuredWindowAblation,ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",Cell12,XGBoost,False,48,10,41,,0.012677406295665036,0.009208478330662018,0.9775228904474689
+StructuredWindowAblation,ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",Cell01,LightGBM,False,47,11,41,,0.037081620709475585,0.02926395770764989,0.8140387786989596
+StructuredWindowAblation,ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",Cell03,LightGBM,False,48,10,41,,0.03157049843808053,0.02594883740366304,0.6531297715757101
+StructuredWindowAblation,ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",Cell10,LightGBM,False,46,12,41,,0.0380935776265707,0.031130996966361468,0.7574030485470804
+StructuredWindowAblation,ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",Cell11,LightGBM,False,43,15,41,,0.04534218028192366,0.04060904489270075,0.6793109605774534
+StructuredWindowAblation,ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",Cell12,LightGBM,False,48,10,41,,0.040244614762293546,0.034550761273408684,0.7734859250689261
+StructuredWindowAblation,ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",Cell01,CatBoost,False,47,11,41,,0.014856267950379063,0.01234646772945993,0.9701513686236632
+StructuredWindowAblation,ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",Cell03,CatBoost,False,48,10,41,,0.016748948917756724,0.01569143601903523,0.9023709046413368
+StructuredWindowAblation,ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",Cell10,CatBoost,False,46,12,41,,0.0062657429637108675,0.005549498108679958,0.9934366288308513
+StructuredWindowAblation,ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",Cell11,CatBoost,False,43,15,41,,0.006478714401833818,0.004867415614613583,0.9934527791737728
+StructuredWindowAblation,ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",Cell12,CatBoost,False,48,10,41,,0.01448302925707083,0.012279277930347665,0.9706641646140327
+StructuredWindowAblation,ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",Cell01,MAW-GME,False,47,11,41,28.0,0.010708805378111395,0.009199073347161553,0.9844908846353452
+StructuredWindowAblation,ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",Cell03,MAW-GME,False,48,10,41,28.0,0.01622624171550584,0.014955738407960651,0.9083695052626309
+StructuredWindowAblation,ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",Cell10,MAW-GME,False,46,12,41,28.0,0.00739501422007827,0.007108391050153928,0.990857607935315
+StructuredWindowAblation,ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",Cell11,MAW-GME,False,43,15,41,28.0,0.006956671089134758,0.005946576905626699,0.9924511245682031
+StructuredWindowAblation,ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",Cell12,MAW-GME,False,48,10,41,28.0,0.014540403681550143,0.013285147154913912,0.9704312767989856
+StructuredWindowAblation,all_windows_available,All window-specific features are available.,Cell01,Ridge,True,44,9,61,,0.013299171055169944,0.011273672109353015,0.9538363363953004
+StructuredWindowAblation,all_windows_available,All window-specific features are available.,Cell03,Ridge,True,43,10,61,,0.01993198535104547,0.019679642389824493,0.8617372254593335
+StructuredWindowAblation,all_windows_available,All window-specific features are available.,Cell10,Ridge,True,42,11,61,,0.00857263917558526,0.008190288915198381,0.9821655666705932
+StructuredWindowAblation,all_windows_available,All window-specific features are available.,Cell11,Ridge,True,39,14,61,,0.015434433522366169,0.011652366166544128,0.9440133643656319
+StructuredWindowAblation,all_windows_available,All window-specific features are available.,Cell12,Ridge,True,44,9,61,,0.015906734178907075,0.015003142240937437,0.9255285313592649
+StructuredWindowAblation,all_windows_available,All window-specific features are available.,Cell01,ExtraTrees,True,44,9,61,,0.010474271334337868,0.009747945800900314,0.9713648960667927
+StructuredWindowAblation,all_windows_available,All window-specific features are available.,Cell03,ExtraTrees,True,43,10,61,,0.019503617836808807,0.019288560211927087,0.8676163026879192
+StructuredWindowAblation,all_windows_available,All window-specific features are available.,Cell10,ExtraTrees,True,42,11,61,,0.005568600984665157,0.004723678883514871,0.9924747241331668
+StructuredWindowAblation,all_windows_available,All window-specific features are available.,Cell11,ExtraTrees,True,39,14,61,,0.004950226498712548,0.003460162932985424,0.9942409198503884
+StructuredWindowAblation,all_windows_available,All window-specific features are available.,Cell12,ExtraTrees,True,44,9,61,,0.013688948569823316,0.01234003283812842,0.9448471378314882
+StructuredWindowAblation,all_windows_available,All window-specific features are available.,Cell01,RandomForest,True,44,9,61,,0.010640049007432753,0.010123380706968301,0.9704512998985348
+StructuredWindowAblation,all_windows_available,All window-specific features are available.,Cell03,RandomForest,True,43,10,61,,0.02023510732609482,0.019284301868077437,0.8574998985663993
+StructuredWindowAblation,all_windows_available,All window-specific features are available.,Cell10,RandomForest,True,42,11,61,,0.00598461633724511,0.00478389186831164,0.991308337520542
+StructuredWindowAblation,all_windows_available,All window-specific features are available.,Cell11,RandomForest,True,39,14,61,,0.010540139008444973,0.007390387664821926,0.9738906741341699
+StructuredWindowAblation,all_windows_available,All window-specific features are available.,Cell12,RandomForest,True,44,9,61,,0.013998320064898602,0.012841205679321257,0.9423260482244804
+StructuredWindowAblation,all_windows_available,All window-specific features are available.,Cell01,HistGB,True,44,9,61,,0.03363686512576186,0.02739271221327492,0.7046872816413792
+StructuredWindowAblation,all_windows_available,All window-specific features are available.,Cell03,HistGB,True,43,10,61,,0.04958192744761312,0.0415871376421015,0.1444390380519548
+StructuredWindowAblation,all_windows_available,All window-specific features are available.,Cell10,HistGB,True,42,11,61,,0.03185602078453876,0.027250526975476193,0.7537289978799241
+StructuredWindowAblation,all_windows_available,All window-specific features are available.,Cell11,HistGB,True,39,14,61,,0.09904830715960289,0.0845963427285028,-1.3056697206168337
+StructuredWindowAblation,all_windows_available,All window-specific features are available.,Cell12,HistGB,True,44,9,61,,0.043878740951945626,0.03612206383282041,0.4333222164898912
+StructuredWindowAblation,all_windows_available,All window-specific features are available.,Cell01,XGBoost,True,44,9,61,,0.007618924890999789,0.006893515889902748,0.9848490973353439
+StructuredWindowAblation,all_windows_available,All window-specific features are available.,Cell03,XGBoost,True,43,10,61,,0.025218844465677487,0.022948854370138237,0.778662747095365
+StructuredWindowAblation,all_windows_available,All window-specific features are available.,Cell10,XGBoost,True,42,11,61,,0.00718731218755568,0.005459194828838398,0.9874638770172253
+StructuredWindowAblation,all_windows_available,All window-specific features are available.,Cell11,XGBoost,True,39,14,61,,0.012563217651085104,0.010375990543287845,0.9629059076423019
+StructuredWindowAblation,all_windows_available,All window-specific features are available.,Cell12,XGBoost,True,44,9,61,,0.014338545427167554,0.011964935891990805,0.9394884796525055
+StructuredWindowAblation,all_windows_available,All window-specific features are available.,Cell01,LightGBM,True,44,9,61,,0.030650459113533764,0.026172025690415546,0.7547973880411641
+StructuredWindowAblation,all_windows_available,All window-specific features are available.,Cell03,LightGBM,True,43,10,61,,0.05106797035449188,0.04070890498808631,0.09238566986393937
+StructuredWindowAblation,all_windows_available,All window-specific features are available.,Cell10,LightGBM,True,42,11,61,,0.03495090592771102,0.028038942815073575,0.7035529726211942
+StructuredWindowAblation,all_windows_available,All window-specific features are available.,Cell11,LightGBM,True,39,14,61,,0.09904830578969133,0.08459634168825605,-1.3056696568385888
+StructuredWindowAblation,all_windows_available,All window-specific features are available.,Cell12,LightGBM,True,44,9,61,,0.04462838457249752,0.033905775219944485,0.41379407301286586
+StructuredWindowAblation,all_windows_available,All window-specific features are available.,Cell01,CatBoost,True,44,9,61,,0.012981845420446465,0.01108889876358574,0.9560130357052539
+StructuredWindowAblation,all_windows_available,All window-specific features are available.,Cell03,CatBoost,True,43,10,61,,0.02460966962083073,0.022395817196167078,0.7892266413900118
+StructuredWindowAblation,all_windows_available,All window-specific features are available.,Cell10,CatBoost,True,42,11,61,,0.011803877820388834,0.00897217963898378,0.9661873167114097
+StructuredWindowAblation,all_windows_available,All window-specific features are available.,Cell11,CatBoost,True,39,14,61,,0.021292032432506675,0.016199452831999504,0.893453982920949
+StructuredWindowAblation,all_windows_available,All window-specific features are available.,Cell12,CatBoost,True,44,9,61,,0.01778102039728632,0.015285202252734146,0.9069446746656145
+StructuredWindowAblation,all_windows_available,All window-specific features are available.,Cell01,MAW-GME,True,44,9,61,28.0,0.010597787997209679,0.009555906056303718,0.9706855615936026
+StructuredWindowAblation,all_windows_available,All window-specific features are available.,Cell03,MAW-GME,True,43,10,61,28.0,0.021209480746727294,0.019545006229910532,0.8434459808951806
+StructuredWindowAblation,all_windows_available,All window-specific features are available.,Cell10,MAW-GME,True,42,11,61,28.0,0.0066676493881098,0.006167762672574118,0.9892111355891274
+StructuredWindowAblation,all_windows_available,All window-specific features are available.,Cell11,MAW-GME,True,39,14,61,28.0,0.014250370591670425,0.010621761470613666,0.9522739712280797
+StructuredWindowAblation,all_windows_available,All window-specific features are available.,Cell12,MAW-GME,True,44,9,61,28.0,0.014614426869358656,0.013174468028481693,0.9371375289960023
+StructuredWindowAblation,only_full_window,Only full-window features are available.,Cell01,Ridge,True,44,9,19,,0.015544728953769823,0.013697033348119744,0.9369307841485646
+StructuredWindowAblation,only_full_window,Only full-window features are available.,Cell03,Ridge,True,43,10,19,,0.019703811986448137,0.01915508577483872,0.8648846599138411
+StructuredWindowAblation,only_full_window,Only full-window features are available.,Cell10,Ridge,True,42,11,19,,0.011873151393355506,0.011103858126910142,0.9657892782639395
+StructuredWindowAblation,only_full_window,Only full-window features are available.,Cell11,Ridge,True,39,14,19,,0.0034098578978716317,0.0025799514473907287,0.9972674032802566
+StructuredWindowAblation,only_full_window,Only full-window features are available.,Cell12,Ridge,True,44,9,19,,0.01534292482306276,0.014066174783860321,0.9307142080015375
+StructuredWindowAblation,only_full_window,Only full-window features are available.,Cell01,ExtraTrees,True,44,9,19,,0.009090131864648047,0.007921614536212885,0.9784329129989878
+StructuredWindowAblation,only_full_window,Only full-window features are available.,Cell03,ExtraTrees,True,43,10,19,,0.017796134927556575,0.017563423327816807,0.8897812379717414
+StructuredWindowAblation,only_full_window,Only full-window features are available.,Cell10,ExtraTrees,True,42,11,19,,0.006450987238603538,0.005202230428852059,0.9899009018947393
+StructuredWindowAblation,only_full_window,Only full-window features are available.,Cell11,ExtraTrees,True,39,14,19,,0.005618514832423423,0.004344111820604465,0.9925809884903242
+StructuredWindowAblation,only_full_window,Only full-window features are available.,Cell12,ExtraTrees,True,44,9,19,,0.014576973574600582,0.01304741798461827,0.9374593192085158
+StructuredWindowAblation,only_full_window,Only full-window features are available.,Cell01,RandomForest,True,44,9,19,,0.008009231608725555,0.007509971828660866,0.9832570172813754
+StructuredWindowAblation,only_full_window,Only full-window features are available.,Cell03,RandomForest,True,43,10,19,,0.017905608940832086,0.01673451318180662,0.8884210321840218
+StructuredWindowAblation,only_full_window,Only full-window features are available.,Cell10,RandomForest,True,42,11,19,,0.007692437030442176,0.00637886342463436,0.9856398781444152
+StructuredWindowAblation,only_full_window,Only full-window features are available.,Cell11,RandomForest,True,39,14,19,,0.014199725231617872,0.010533348077406626,0.9526126019667226
+StructuredWindowAblation,only_full_window,Only full-window features are available.,Cell12,RandomForest,True,44,9,19,,0.014920137052615771,0.013514320050691333,0.934480059184021
+StructuredWindowAblation,only_full_window,Only full-window features are available.,Cell01,HistGB,True,44,9,19,,0.017094767426550524,0.014279204069464467,0.9237258253503134
+StructuredWindowAblation,only_full_window,Only full-window features are available.,Cell03,HistGB,True,43,10,19,,0.042069907679144786,0.0326560528826673,0.3840474365305643
+StructuredWindowAblation,only_full_window,Only full-window features are available.,Cell10,HistGB,True,42,11,19,,0.037309349892495416,0.03184649426272797,0.6621953770118283
+StructuredWindowAblation,only_full_window,Only full-window features are available.,Cell11,HistGB,True,39,14,19,,0.09904830715960289,0.0845963427285028,-1.3056697206168337
+StructuredWindowAblation,only_full_window,Only full-window features are available.,Cell12,HistGB,True,44,9,19,,0.0450304884822835,0.03209038385722914,0.4031829965702346
+StructuredWindowAblation,only_full_window,Only full-window features are available.,Cell01,XGBoost,True,44,9,19,,0.007149894955869264,0.005746795374545625,0.9866570933897421
+StructuredWindowAblation,only_full_window,Only full-window features are available.,Cell03,XGBoost,True,43,10,19,,0.02555645647759294,0.023066519899389338,0.7726968666605145
+StructuredWindowAblation,only_full_window,Only full-window features are available.,Cell10,XGBoost,True,42,11,19,,0.008370390586975867,0.006741412943949143,0.9829971519613423
+StructuredWindowAblation,only_full_window,Only full-window features are available.,Cell11,XGBoost,True,39,14,19,,0.013424467927473788,0.010304596951270808,0.9576457354704863
+StructuredWindowAblation,only_full_window,Only full-window features are available.,Cell12,XGBoost,True,44,9,19,,0.013797735880749165,0.012170075211092776,0.9439670450276417
+StructuredWindowAblation,only_full_window,Only full-window features are available.,Cell01,LightGBM,True,44,9,19,,0.01977983351904344,0.01689342280758092,0.8978833903235705
+StructuredWindowAblation,only_full_window,Only full-window features are available.,Cell03,LightGBM,True,43,10,19,,0.04277557869115056,0.03382774002832624,0.3632104375630141
+StructuredWindowAblation,only_full_window,Only full-window features are available.,Cell10,LightGBM,True,42,11,19,,0.03937536124148733,0.03489965309537617,0.6237475575343601
+StructuredWindowAblation,only_full_window,Only full-window features are available.,Cell11,LightGBM,True,39,14,19,,0.09904830578969133,0.08459634168825605,-1.3056696568385888
+StructuredWindowAblation,only_full_window,Only full-window features are available.,Cell12,LightGBM,True,44,9,19,,0.047063217597198836,0.03565245395247236,0.3480848069206056
+StructuredWindowAblation,only_full_window,Only full-window features are available.,Cell01,CatBoost,True,44,9,19,,0.010572135513503013,0.009218100864123903,0.9708273040102358
+StructuredWindowAblation,only_full_window,Only full-window features are available.,Cell03,CatBoost,True,43,10,19,,0.024695344792215055,0.02216879419130744,0.7877565300723627
+StructuredWindowAblation,only_full_window,Only full-window features are available.,Cell10,CatBoost,True,42,11,19,,0.011284262276405962,0.008727307421390284,0.9690987128978572
+StructuredWindowAblation,only_full_window,Only full-window features are available.,Cell11,CatBoost,True,39,14,19,,0.02647124484891651,0.01997896723482571,0.8353158844777185
+StructuredWindowAblation,only_full_window,Only full-window features are available.,Cell12,CatBoost,True,44,9,19,,0.019176542109446987,0.014309000620879845,0.891764813853071
+StructuredWindowAblation,only_full_window,Only full-window features are available.,Cell01,MAW-GME,True,44,9,19,7.0,0.009008294138266922,0.008592625667611233,0.9788194984321352
+StructuredWindowAblation,only_full_window,Only full-window features are available.,Cell03,MAW-GME,True,43,10,19,7.0,0.020965812326272825,0.019737589518689813,0.8470225078810731
+StructuredWindowAblation,only_full_window,Only full-window features are available.,Cell10,MAW-GME,True,42,11,19,7.0,0.006498010762796228,0.00615219439846522,0.9897531334971895
+StructuredWindowAblation,only_full_window,Only full-window features are available.,Cell11,MAW-GME,True,39,14,19,7.0,0.015449099088871926,0.011322668916787413,0.9439069185004123
+StructuredWindowAblation,only_full_window,Only full-window features are available.,Cell12,MAW-GME,True,44,9,19,7.0,0.013280674045323954,0.012041198816568732,0.948087958669321
+StructuredWindowAblation,only_medium_window,Only medium partial-window features are available.,Cell01,Ridge,True,44,9,19,,0.016603531378804468,0.01385420420828899,0.9280464777579995
+StructuredWindowAblation,only_medium_window,Only medium partial-window features are available.,Cell03,Ridge,True,43,10,19,,0.021567549289486454,0.01880131062522026,0.8381153213458066
+StructuredWindowAblation,only_medium_window,Only medium partial-window features are available.,Cell10,Ridge,True,42,11,19,,0.009492319694942224,0.008196231271963712,0.9781337183075294
+StructuredWindowAblation,only_medium_window,Only medium partial-window features are available.,Cell11,Ridge,True,39,14,19,,0.02056843094575281,0.01630558347231032,0.9005727775390334
+StructuredWindowAblation,only_medium_window,Only medium partial-window features are available.,Cell12,Ridge,True,44,9,19,,0.019133037199693052,0.017487925406921716,0.8922553528362084
+StructuredWindowAblation,only_medium_window,Only medium partial-window features are available.,Cell01,ExtraTrees,True,44,9,19,,0.010702866119744353,0.009516595123451809,0.9701013685671493
+StructuredWindowAblation,only_medium_window,Only medium partial-window features are available.,Cell03,ExtraTrees,True,43,10,19,,0.017272740955291757,0.015763163189198005,0.896169087991176
+StructuredWindowAblation,only_medium_window,Only medium partial-window features are available.,Cell10,ExtraTrees,True,42,11,19,,0.0070309471549568755,0.005240149652636719,0.9880034078851272
+StructuredWindowAblation,only_medium_window,Only medium partial-window features are available.,Cell11,ExtraTrees,True,39,14,19,,0.006351343311109922,0.005086507620467092,0.9905194363506145
+StructuredWindowAblation,only_medium_window,Only medium partial-window features are available.,Cell12,ExtraTrees,True,44,9,19,,0.013536760668818705,0.012054530606688325,0.9460666529840619
+StructuredWindowAblation,only_medium_window,Only medium partial-window features are available.,Cell01,RandomForest,True,44,9,19,,0.011545305938460572,0.010560683038100685,0.9652093922689085
+StructuredWindowAblation,only_medium_window,Only medium partial-window features are available.,Cell03,RandomForest,True,43,10,19,,0.018505640616563353,0.016760305950305844,0.8808175258903941
+StructuredWindowAblation,only_medium_window,Only medium partial-window features are available.,Cell10,RandomForest,True,42,11,19,,0.007605586305727882,0.0059857500284512125,0.9859623107785751
+StructuredWindowAblation,only_medium_window,Only medium partial-window features are available.,Cell11,RandomForest,True,39,14,19,,0.013351546529915942,0.009342440858071193,0.9581046205095406
+StructuredWindowAblation,only_medium_window,Only medium partial-window features are available.,Cell12,RandomForest,True,44,9,19,,0.014723087359054384,0.013431637616764469,0.9361992697719641
+StructuredWindowAblation,only_medium_window,Only medium partial-window features are available.,Cell01,HistGB,True,44,9,19,,0.030134769853049345,0.02606016804760489,0.7629789696686724
+StructuredWindowAblation,only_medium_window,Only medium partial-window features are available.,Cell03,HistGB,True,43,10,19,,0.05393173635515971,0.04242103691239205,-0.012262048480440324
+StructuredWindowAblation,only_medium_window,Only medium partial-window features are available.,Cell10,HistGB,True,42,11,19,,0.03913621901940027,0.03290848131187719,0.6283039403441615
+StructuredWindowAblation,only_medium_window,Only medium partial-window features are available.,Cell11,HistGB,True,39,14,19,,0.09904830715960289,0.0845963427285028,-1.3056697206168337
+StructuredWindowAblation,only_medium_window,Only medium partial-window features are available.,Cell12,HistGB,True,44,9,19,,0.042912255424060027,0.033925697502286405,0.4580108982143347
+StructuredWindowAblation,only_medium_window,Only medium partial-window features are available.,Cell01,XGBoost,True,44,9,19,,0.01296316655294208,0.009558125608021557,0.9561395255153758
+StructuredWindowAblation,only_medium_window,Only medium partial-window features are available.,Cell03,XGBoost,True,43,10,19,,0.0241606468639699,0.022223793668767998,0.7968479241510303
+StructuredWindowAblation,only_medium_window,Only medium partial-window features are available.,Cell10,XGBoost,True,42,11,19,,0.008064983434662408,0.006142108638369725,0.9842152690080994
+StructuredWindowAblation,only_medium_window,Only medium partial-window features are available.,Cell11,XGBoost,True,39,14,19,,0.016351233201115714,0.013807655824725842,0.9371646546435476
+StructuredWindowAblation,only_medium_window,Only medium partial-window features are available.,Cell12,XGBoost,True,44,9,19,,0.01106802520059184,0.008478020181122044,0.9639447799784919
+StructuredWindowAblation,only_medium_window,Only medium partial-window features are available.,Cell01,LightGBM,True,44,9,19,,0.031124968821258352,0.027371424122469932,0.7471464975110362
+StructuredWindowAblation,only_medium_window,Only medium partial-window features are available.,Cell03,LightGBM,True,43,10,19,,0.050995150459870985,0.0397651691054486,0.09497223273350497
+StructuredWindowAblation,only_medium_window,Only medium partial-window features are available.,Cell10,LightGBM,True,42,11,19,,0.04226287373729366,0.03296358307475336,0.5665407510265646
+StructuredWindowAblation,only_medium_window,Only medium partial-window features are available.,Cell11,LightGBM,True,39,14,19,,0.09904830578969133,0.08459634168825605,-1.3056696568385888
+StructuredWindowAblation,only_medium_window,Only medium partial-window features are available.,Cell12,LightGBM,True,44,9,19,,0.042231809206508986,0.03249171834838768,0.4750629269007298
+StructuredWindowAblation,only_medium_window,Only medium partial-window features are available.,Cell01,CatBoost,True,44,9,19,,0.015909867715960875,0.012646992956814188,0.9339330495290613
+StructuredWindowAblation,only_medium_window,Only medium partial-window features are available.,Cell03,CatBoost,True,43,10,19,,0.024224110525681533,0.020979636447410445,0.7957792683610139
+StructuredWindowAblation,only_medium_window,Only medium partial-window features are available.,Cell10,CatBoost,True,42,11,19,,0.01358395696024563,0.010219768911117937,0.9552201309459208
+StructuredWindowAblation,only_medium_window,Only medium partial-window features are available.,Cell11,CatBoost,True,39,14,19,,0.025146041918845865,0.018159630884068863,0.8513919786377683
+StructuredWindowAblation,only_medium_window,Only medium partial-window features are available.,Cell12,CatBoost,True,44,9,19,,0.01970492035652976,0.01621074873802962,0.8857181560257352
+StructuredWindowAblation,only_medium_window,Only medium partial-window features are available.,Cell01,MAW-GME,True,44,9,19,7.0,0.01230614250855913,0.01169525730625081,0.9604728953329877
+StructuredWindowAblation,only_medium_window,Only medium partial-window features are available.,Cell03,MAW-GME,True,43,10,19,7.0,0.02298346029647827,0.020495112406613957,0.8161621302850041
+StructuredWindowAblation,only_medium_window,Only medium partial-window features are available.,Cell10,MAW-GME,True,42,11,19,7.0,0.007532059385546483,0.006843128827786523,0.9862324172171222
+StructuredWindowAblation,only_medium_window,Only medium partial-window features are available.,Cell11,MAW-GME,True,39,14,19,7.0,0.0185498090828524,0.01363482218390106,0.919131037810802
+StructuredWindowAblation,only_medium_window,Only medium partial-window features are available.,Cell12,MAW-GME,True,44,9,19,7.0,0.013530101658739767,0.01222759449836202,0.9461197017710392
+StructuredWindowAblation,only_narrow_window,Only narrow partial-window features are available.,Cell01,Ridge,True,44,9,19,,0.012266141447824284,0.010108091090354314,0.9607294430516099
+StructuredWindowAblation,only_narrow_window,Only narrow partial-window features are available.,Cell03,Ridge,True,43,10,19,,0.01918825501419606,0.018761476808843734,0.8718628346287356
+StructuredWindowAblation,only_narrow_window,Only narrow partial-window features are available.,Cell10,Ridge,True,42,11,19,,0.006713291009186793,0.005666550190160693,0.9890629254473098
+StructuredWindowAblation,only_narrow_window,Only narrow partial-window features are available.,Cell11,Ridge,True,39,14,19,,0.007760348437894934,0.006987787296207653,0.9858464486703029
+StructuredWindowAblation,only_narrow_window,Only narrow partial-window features are available.,Cell12,Ridge,True,44,9,19,,0.013827165012524805,0.01267032994632099,0.943727765220615
+StructuredWindowAblation,only_narrow_window,Only narrow partial-window features are available.,Cell01,ExtraTrees,True,44,9,19,,0.01165206957603118,0.010069992332790415,0.9645629744212898
+StructuredWindowAblation,only_narrow_window,Only narrow partial-window features are available.,Cell03,ExtraTrees,True,43,10,19,,0.020061568330066823,0.019737024660923374,0.8599336176603366
+StructuredWindowAblation,only_narrow_window,Only narrow partial-window features are available.,Cell10,ExtraTrees,True,42,11,19,,0.005041760683715751,0.004458558291281309,0.9938312853676043
+StructuredWindowAblation,only_narrow_window,Only narrow partial-window features are available.,Cell11,ExtraTrees,True,39,14,19,,0.005123276022904699,0.004433292175109587,0.9938312312400176
+StructuredWindowAblation,only_narrow_window,Only narrow partial-window features are available.,Cell12,ExtraTrees,True,44,9,19,,0.011634356893400984,0.01106128257952774,0.9601606140909537
+StructuredWindowAblation,only_narrow_window,Only narrow partial-window features are available.,Cell01,RandomForest,True,44,9,19,,0.010791049447684926,0.0100869481429825,0.9696066557676749
+StructuredWindowAblation,only_narrow_window,Only narrow partial-window features are available.,Cell03,RandomForest,True,43,10,19,,0.01941034995086975,0.01867077607804255,0.868879414501578
+StructuredWindowAblation,only_narrow_window,Only narrow partial-window features are available.,Cell10,RandomForest,True,42,11,19,,0.006192838808669514,0.005474834610733836,0.9906929986344936
+StructuredWindowAblation,only_narrow_window,Only narrow partial-window features are available.,Cell11,RandomForest,True,39,14,19,,0.009231158595513999,0.006861924792271482,0.9799730226683876
+StructuredWindowAblation,only_narrow_window,Only narrow partial-window features are available.,Cell12,RandomForest,True,44,9,19,,0.011901797839791449,0.01111498276542248,0.9583079730419568
+StructuredWindowAblation,only_narrow_window,Only narrow partial-window features are available.,Cell01,HistGB,True,44,9,19,,0.026025565121776006,0.021503061391100302,0.8232125380644405
+StructuredWindowAblation,only_narrow_window,Only narrow partial-window features are available.,Cell03,HistGB,True,43,10,19,,0.039391011801749885,0.03069425894791513,0.4599942034948512
+StructuredWindowAblation,only_narrow_window,Only narrow partial-window features are available.,Cell10,HistGB,True,42,11,19,,0.03440477793422236,0.030777883610126264,0.7127449029111259
+StructuredWindowAblation,only_narrow_window,Only narrow partial-window features are available.,Cell11,HistGB,True,39,14,19,,0.09904830715960289,0.0845963427285028,-1.3056697206168337
+StructuredWindowAblation,only_narrow_window,Only narrow partial-window features are available.,Cell12,HistGB,True,44,9,19,,0.044713803914966474,0.031119034993173873,0.4115479130484706
+StructuredWindowAblation,only_narrow_window,Only narrow partial-window features are available.,Cell01,XGBoost,True,44,9,19,,0.010527435305948789,0.008762142757312068,0.9710734735336581
+StructuredWindowAblation,only_narrow_window,Only narrow partial-window features are available.,Cell03,XGBoost,True,43,10,19,,0.02217124137279867,0.021592640085241387,0.8289259373287852
+StructuredWindowAblation,only_narrow_window,Only narrow partial-window features are available.,Cell10,XGBoost,True,42,11,19,,0.005685383557214437,0.004229642869099003,0.9921557800295235
+StructuredWindowAblation,only_narrow_window,Only narrow partial-window features are available.,Cell11,XGBoost,True,39,14,19,,0.01942140985299409,0.015801648055229798,0.9113529090971407
+StructuredWindowAblation,only_narrow_window,Only narrow partial-window features are available.,Cell12,XGBoost,True,44,9,19,,0.009399907950538081,0.007710046144422463,0.9739939092921824
+StructuredWindowAblation,only_narrow_window,Only narrow partial-window features are available.,Cell01,LightGBM,True,44,9,19,,0.023494303518528544,0.019858746887595605,0.8559290984962515
+StructuredWindowAblation,only_narrow_window,Only narrow partial-window features are available.,Cell03,LightGBM,True,43,10,19,,0.03865255901556304,0.029288952573722483,0.4800511129734376
+StructuredWindowAblation,only_narrow_window,Only narrow partial-window features are available.,Cell10,LightGBM,True,42,11,19,,0.03654081221713348,0.029972768878677683,0.6759689571725893
+StructuredWindowAblation,only_narrow_window,Only narrow partial-window features are available.,Cell11,LightGBM,True,39,14,19,,0.09904830578969133,0.08459634168825605,-1.3056696568385888
+StructuredWindowAblation,only_narrow_window,Only narrow partial-window features are available.,Cell12,LightGBM,True,44,9,19,,0.043002208999490414,0.031764849740352874,0.4557362586504071
+StructuredWindowAblation,only_narrow_window,Only narrow partial-window features are available.,Cell01,CatBoost,True,44,9,19,,0.011991809038365287,0.010119574864884288,0.9624663731737895
+StructuredWindowAblation,only_narrow_window,Only narrow partial-window features are available.,Cell03,CatBoost,True,43,10,19,,0.02685416756862068,0.023781505453501696,0.7490266901631047
+StructuredWindowAblation,only_narrow_window,Only narrow partial-window features are available.,Cell10,CatBoost,True,42,11,19,,0.009058933507902187,0.007512638127097873,0.980084813882245
+StructuredWindowAblation,only_narrow_window,Only narrow partial-window features are available.,Cell11,CatBoost,True,39,14,19,,0.014354985640638486,0.01020475277924386,0.9515706649330207
+StructuredWindowAblation,only_narrow_window,Only narrow partial-window features are available.,Cell12,CatBoost,True,44,9,19,,0.018841097611108765,0.01521710343146871,0.8955182903049153
+StructuredWindowAblation,only_narrow_window,Only narrow partial-window features are available.,Cell01,MAW-GME,True,44,9,19,7.0,0.010849002341342609,0.009212642145806983,0.9692793267213689
+StructuredWindowAblation,only_narrow_window,Only narrow partial-window features are available.,Cell03,MAW-GME,True,43,10,19,7.0,0.020544869236754706,0.019797417850992406,0.853103681424598
+StructuredWindowAblation,only_narrow_window,Only narrow partial-window features are available.,Cell10,MAW-GME,True,42,11,19,7.0,0.005178985778542559,0.00458872063308072,0.9934909192034186
+StructuredWindowAblation,only_narrow_window,Only narrow partial-window features are available.,Cell11,MAW-GME,True,39,14,19,7.0,0.010438632738550226,0.00839523901614686,0.9743911416665111
+StructuredWindowAblation,only_narrow_window,Only narrow partial-window features are available.,Cell12,MAW-GME,True,44,9,19,7.0,0.011306502310313089,0.010526616026538618,0.9623743143203102
+StructuredWindowAblation,only_very_narrow_window,Only very-narrow partial-window features are available.,Cell01,Ridge,True,44,9,19,,0.02550803061294248,0.024139384516709175,0.8301736863227207
+StructuredWindowAblation,only_very_narrow_window,Only very-narrow partial-window features are available.,Cell03,Ridge,True,43,10,19,,0.025274497387119177,0.02295800763992941,0.777684775522444
+StructuredWindowAblation,only_very_narrow_window,Only very-narrow partial-window features are available.,Cell10,Ridge,True,42,11,19,,0.01316598026889582,0.012361914090853854,0.9579334761901332
+StructuredWindowAblation,only_very_narrow_window,Only very-narrow partial-window features are available.,Cell11,Ridge,True,39,14,19,,0.023382783681308434,0.020604859594107565,0.8715022848907487
+StructuredWindowAblation,only_very_narrow_window,Only very-narrow partial-window features are available.,Cell12,Ridge,True,44,9,19,,0.028349629417567117,0.025458115501782872,0.763450167989659
+StructuredWindowAblation,only_very_narrow_window,Only very-narrow partial-window features are available.,Cell01,ExtraTrees,True,44,9,19,,0.013094597611580898,0.011673368045271082,0.9552456309870714
+StructuredWindowAblation,only_very_narrow_window,Only very-narrow partial-window features are available.,Cell03,ExtraTrees,True,43,10,19,,0.01555228176139474,0.013155890863283448,0.9158232060653511
+StructuredWindowAblation,only_very_narrow_window,Only very-narrow partial-window features are available.,Cell10,ExtraTrees,True,42,11,19,,0.009166571595901117,0.0068028615109552056,0.9796087384466394
+StructuredWindowAblation,only_very_narrow_window,Only very-narrow partial-window features are available.,Cell11,ExtraTrees,True,39,14,19,,0.008784571254675482,0.00607132314883554,0.9818638908354282
+StructuredWindowAblation,only_very_narrow_window,Only very-narrow partial-window features are available.,Cell12,ExtraTrees,True,44,9,19,,0.020325428899692567,0.01717991413036462,0.8784073541263481
+StructuredWindowAblation,only_very_narrow_window,Only very-narrow partial-window features are available.,Cell01,RandomForest,True,44,9,19,,0.014412635926969106,0.012715440520332195,0.9457826912643494
+StructuredWindowAblation,only_very_narrow_window,Only very-narrow partial-window features are available.,Cell03,RandomForest,True,43,10,19,,0.018585096871081022,0.015071037201428484,0.8797918793800477
+StructuredWindowAblation,only_very_narrow_window,Only very-narrow partial-window features are available.,Cell10,RandomForest,True,42,11,19,,0.009560986874318606,0.0067321204660999645,0.9778162138774936
+StructuredWindowAblation,only_very_narrow_window,Only very-narrow partial-window features are available.,Cell11,RandomForest,True,39,14,19,,0.011734568086529125,0.008987801247590537,0.9676378624248461
+StructuredWindowAblation,only_very_narrow_window,Only very-narrow partial-window features are available.,Cell12,RandomForest,True,44,9,19,,0.02475348897830488,0.020902962685398437,0.8196564088819017
+StructuredWindowAblation,only_very_narrow_window,Only very-narrow partial-window features are available.,Cell01,HistGB,True,44,9,19,,0.02449223714617942,0.01900847888525213,0.8434301861042345
+StructuredWindowAblation,only_very_narrow_window,Only very-narrow partial-window features are available.,Cell03,HistGB,True,43,10,19,,0.03994911572020758,0.03151525532668022,0.4445838672477229
+StructuredWindowAblation,only_very_narrow_window,Only very-narrow partial-window features are available.,Cell10,HistGB,True,42,11,19,,0.03903455498194983,0.031063547890496045,0.6302325395818753
+StructuredWindowAblation,only_very_narrow_window,Only very-narrow partial-window features are available.,Cell11,HistGB,True,39,14,19,,0.09904830715960289,0.0845963427285028,-1.3056697206168337
+StructuredWindowAblation,only_very_narrow_window,Only very-narrow partial-window features are available.,Cell12,HistGB,True,44,9,19,,0.0405212557245716,0.030087167179996894,0.516725742507313
+StructuredWindowAblation,only_very_narrow_window,Only very-narrow partial-window features are available.,Cell01,XGBoost,True,44,9,19,,0.00944397895811899,0.007882070160092779,0.9767211701910501
+StructuredWindowAblation,only_very_narrow_window,Only very-narrow partial-window features are available.,Cell03,XGBoost,True,43,10,19,,0.02414189992607802,0.019839070834539098,0.797163064868568
+StructuredWindowAblation,only_very_narrow_window,Only very-narrow partial-window features are available.,Cell10,XGBoost,True,42,11,19,,0.013415431840167438,0.00894737186226948,0.9563243336432681
+StructuredWindowAblation,only_very_narrow_window,Only very-narrow partial-window features are available.,Cell11,XGBoost,True,39,14,19,,0.01798906369640611,0.015337030254172672,0.9239463432031635
+StructuredWindowAblation,only_very_narrow_window,Only very-narrow partial-window features are available.,Cell12,XGBoost,True,44,9,19,,0.024678723776409818,0.021896972805125134,0.8207441797741685
+StructuredWindowAblation,only_very_narrow_window,Only very-narrow partial-window features are available.,Cell01,LightGBM,True,44,9,19,,0.026669346387730313,0.021969046444501247,0.8143581584461439
+StructuredWindowAblation,only_very_narrow_window,Only very-narrow partial-window features are available.,Cell03,LightGBM,True,43,10,19,,0.03918153525289398,0.030783052410305045,0.46572230085484645
+StructuredWindowAblation,only_very_narrow_window,Only very-narrow partial-window features are available.,Cell10,LightGBM,True,42,11,19,,0.039892136808252786,0.03481949358241679,0.6138066199254947
+StructuredWindowAblation,only_very_narrow_window,Only very-narrow partial-window features are available.,Cell11,LightGBM,True,39,14,19,,0.09904830578969133,0.08459634168825605,-1.3056696568385888
+StructuredWindowAblation,only_very_narrow_window,Only very-narrow partial-window features are available.,Cell12,LightGBM,True,44,9,19,,0.043024493819878,0.03226082670053105,0.4551720103138397
+StructuredWindowAblation,only_very_narrow_window,Only very-narrow partial-window features are available.,Cell01,CatBoost,True,44,9,19,,0.01812353578845327,0.014372801074239154,0.9142691789212041
+StructuredWindowAblation,only_very_narrow_window,Only very-narrow partial-window features are available.,Cell03,CatBoost,True,43,10,19,,0.02511611723715857,0.020421728721497223,0.7804622786360308
+StructuredWindowAblation,only_very_narrow_window,Only very-narrow partial-window features are available.,Cell10,CatBoost,True,42,11,19,,0.013457625476456524,0.011329815098311082,0.9560491679675444
+StructuredWindowAblation,only_very_narrow_window,Only very-narrow partial-window features are available.,Cell11,CatBoost,True,39,14,19,,0.016147724674963594,0.01304218777334564,0.9387190268619634
+StructuredWindowAblation,only_very_narrow_window,Only very-narrow partial-window features are available.,Cell12,CatBoost,True,44,9,19,,0.027116134411247536,0.021859133179974653,0.783586959115236
+StructuredWindowAblation,only_very_narrow_window,Only very-narrow partial-window features are available.,Cell01,MAW-GME,True,44,9,19,7.0,0.012569535165370153,0.01078683079889674,0.958762763042001
+StructuredWindowAblation,only_very_narrow_window,Only very-narrow partial-window features are available.,Cell03,MAW-GME,True,43,10,19,7.0,0.022865338358969582,0.018291779530295316,0.8180469189947677
+StructuredWindowAblation,only_very_narrow_window,Only very-narrow partial-window features are available.,Cell10,MAW-GME,True,42,11,19,7.0,0.010116067540855795,0.0084265894117927,0.9751656003304806
+StructuredWindowAblation,only_very_narrow_window,Only very-narrow partial-window features are available.,Cell11,MAW-GME,True,39,14,19,7.0,0.016179924739629953,0.012149419639362216,0.9384743832653061
+StructuredWindowAblation,only_very_narrow_window,Only very-narrow partial-window features are available.,Cell12,MAW-GME,True,44,9,19,7.0,0.02238696638408142,0.020015876059092066,0.8524910519860456
+StructuredWindowAblation,pmax_features_missing,All pmax-related features are removed from the all-window feature set.,Cell01,Ridge,True,44,9,49,,0.015495609444969947,0.01406161273890986,0.9373287369681172
+StructuredWindowAblation,pmax_features_missing,All pmax-related features are removed from the all-window feature set.,Cell03,Ridge,True,43,10,49,,0.020879714380747583,0.02064832338189949,0.8482763590123867
+StructuredWindowAblation,pmax_features_missing,All pmax-related features are removed from the all-window feature set.,Cell10,Ridge,True,42,11,49,,0.010129209724574931,0.009285492608337765,0.9751010317128556
+StructuredWindowAblation,pmax_features_missing,All pmax-related features are removed from the all-window feature set.,Cell11,Ridge,True,39,14,49,,0.021791592915452965,0.01618461402440296,0.8883956978788581
+StructuredWindowAblation,pmax_features_missing,All pmax-related features are removed from the all-window feature set.,Cell12,Ridge,True,44,9,49,,0.016064827801111535,0.014699714573907334,0.9240408631724223
+StructuredWindowAblation,pmax_features_missing,All pmax-related features are removed from the all-window feature set.,Cell01,ExtraTrees,True,44,9,49,,0.01044566587495172,0.009585191689692383,0.971521088656983
+StructuredWindowAblation,pmax_features_missing,All pmax-related features are removed from the all-window feature set.,Cell03,ExtraTrees,True,43,10,49,,0.020594457833521054,0.02033599096375468,0.8523937062689708
+StructuredWindowAblation,pmax_features_missing,All pmax-related features are removed from the all-window feature set.,Cell10,ExtraTrees,True,42,11,49,,0.006064366619529286,0.005003997158127594,0.9910751459515242
+StructuredWindowAblation,pmax_features_missing,All pmax-related features are removed from the all-window feature set.,Cell11,ExtraTrees,True,39,14,49,,0.006772971462098054,0.005574145520769981,0.9892189397562681
+StructuredWindowAblation,pmax_features_missing,All pmax-related features are removed from the all-window feature set.,Cell12,ExtraTrees,True,44,9,49,,0.01457759810475861,0.013040688086484965,0.9374539601567534
+StructuredWindowAblation,pmax_features_missing,All pmax-related features are removed from the all-window feature set.,Cell01,RandomForest,True,44,9,49,,0.009768009932172816,0.009461139722620563,0.9750963325297338
+StructuredWindowAblation,pmax_features_missing,All pmax-related features are removed from the all-window feature set.,Cell03,RandomForest,True,43,10,49,,0.02304051550171466,0.0221158013831514,0.8152482621097304
+StructuredWindowAblation,pmax_features_missing,All pmax-related features are removed from the all-window feature set.,Cell10,RandomForest,True,42,11,49,,0.006375375786083848,0.00529893561493102,0.9901362557594586
+StructuredWindowAblation,pmax_features_missing,All pmax-related features are removed from the all-window feature set.,Cell11,RandomForest,True,39,14,49,,0.009174650653491661,0.0065308502611929175,0.9802174599184196
+StructuredWindowAblation,pmax_features_missing,All pmax-related features are removed from the all-window feature set.,Cell12,RandomForest,True,44,9,49,,0.01484317132318214,0.013384361342070352,0.9351542866886607
+StructuredWindowAblation,pmax_features_missing,All pmax-related features are removed from the all-window feature set.,Cell01,HistGB,True,44,9,49,,0.033634557733825114,0.027571530511458983,0.7047277954533233
+StructuredWindowAblation,pmax_features_missing,All pmax-related features are removed from the all-window feature set.,Cell03,HistGB,True,43,10,49,,0.04830958204120593,0.039370921646731574,0.18778555445964862
+StructuredWindowAblation,pmax_features_missing,All pmax-related features are removed from the all-window feature set.,Cell10,HistGB,True,42,11,49,,0.03324710302964298,0.0293722091848984,0.7317511652998865
+StructuredWindowAblation,pmax_features_missing,All pmax-related features are removed from the all-window feature set.,Cell11,HistGB,True,39,14,49,,0.09904830715960289,0.0845963427285028,-1.3056697206168337
+StructuredWindowAblation,pmax_features_missing,All pmax-related features are removed from the all-window feature set.,Cell12,HistGB,True,44,9,49,,0.04351997645583025,0.03582109448692461,0.4425509560233517
+StructuredWindowAblation,pmax_features_missing,All pmax-related features are removed from the all-window feature set.,Cell01,XGBoost,True,44,9,49,,0.005124605062874524,0.004118771294277118,0.9931455608350042
+StructuredWindowAblation,pmax_features_missing,All pmax-related features are removed from the all-window feature set.,Cell03,XGBoost,True,43,10,49,,0.02451201272516781,0.023665594263097833,0.7908961178359547
+StructuredWindowAblation,pmax_features_missing,All pmax-related features are removed from the all-window feature set.,Cell10,XGBoost,True,42,11,49,,0.011016783851321684,0.008950911441150546,0.9705462983800799
+StructuredWindowAblation,pmax_features_missing,All pmax-related features are removed from the all-window feature set.,Cell11,XGBoost,True,39,14,49,,0.00931360411607154,0.007029854206464229,0.9796136944479286
+StructuredWindowAblation,pmax_features_missing,All pmax-related features are removed from the all-window feature set.,Cell12,XGBoost,True,44,9,49,,0.009098275441009754,0.007180480046268256,0.9756361435202422
+StructuredWindowAblation,pmax_features_missing,All pmax-related features are removed from the all-window feature set.,Cell01,LightGBM,True,44,9,49,,0.0324981634358144,0.02726086769062017,0.7243431680775901
+StructuredWindowAblation,pmax_features_missing,All pmax-related features are removed from the all-window feature set.,Cell03,LightGBM,True,43,10,49,,0.05050305758112686,0.040208317405692286,0.11235462731114054
+StructuredWindowAblation,pmax_features_missing,All pmax-related features are removed from the all-window feature set.,Cell10,LightGBM,True,42,11,49,,0.035440134204618085,0.02924828728442295,0.6951958041142433
+StructuredWindowAblation,pmax_features_missing,All pmax-related features are removed from the all-window feature set.,Cell11,LightGBM,True,39,14,49,,0.09904830578969133,0.08459634168825605,-1.3056696568385888
+StructuredWindowAblation,pmax_features_missing,All pmax-related features are removed from the all-window feature set.,Cell12,LightGBM,True,44,9,49,,0.044028740741068384,0.03252598895210411,0.4294412100900209
+StructuredWindowAblation,pmax_features_missing,All pmax-related features are removed from the all-window feature set.,Cell01,CatBoost,True,44,9,49,,0.014237678908179615,0.012567601947220508,0.9470910049738237
+StructuredWindowAblation,pmax_features_missing,All pmax-related features are removed from the all-window feature set.,Cell03,CatBoost,True,43,10,49,,0.027399967879136712,0.025255014285299936,0.7387211496540977
+StructuredWindowAblation,pmax_features_missing,All pmax-related features are removed from the all-window feature set.,Cell10,CatBoost,True,42,11,49,,0.010718713629790754,0.008725561736929439,0.9721185367853544
+StructuredWindowAblation,pmax_features_missing,All pmax-related features are removed from the all-window feature set.,Cell11,CatBoost,True,39,14,49,,0.009522519111457272,0.008142962800189415,0.9786888597440027
+StructuredWindowAblation,pmax_features_missing,All pmax-related features are removed from the all-window feature set.,Cell12,CatBoost,True,44,9,49,,0.019660413491167362,0.014660745128357862,0.8862338224065764
+StructuredWindowAblation,pmax_features_missing,All pmax-related features are removed from the all-window feature set.,Cell01,MAW-GME,True,44,9,49,28.0,0.009504698787567713,0.008742282064865036,0.9764208665646724
+StructuredWindowAblation,pmax_features_missing,All pmax-related features are removed from the all-window feature set.,Cell03,MAW-GME,True,43,10,49,28.0,0.022402464498047333,0.020809025601129228,0.8253390795340134
+StructuredWindowAblation,pmax_features_missing,All pmax-related features are removed from the all-window feature set.,Cell10,MAW-GME,True,42,11,49,28.0,0.007561959239130843,0.007221176755086439,0.9861228945103021
+StructuredWindowAblation,pmax_features_missing,All pmax-related features are removed from the all-window feature set.,Cell11,MAW-GME,True,39,14,49,28.0,0.013481212330303994,0.011599641518646755,0.9572869209678223
+StructuredWindowAblation,pmax_features_missing,All pmax-related features are removed from the all-window feature set.,Cell12,MAW-GME,True,44,9,49,28.0,0.013371630410343859,0.011432300827749979,0.9473744557850297
+StructuredWindowAblation,ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",Cell01,Ridge,True,44,9,41,,0.015294843442825112,0.012803588991367429,0.9389421938786797
+StructuredWindowAblation,ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",Cell03,Ridge,True,43,10,41,,0.019319681750018997,0.019005531667533205,0.8701015152203622
+StructuredWindowAblation,ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",Cell10,Ridge,True,42,11,41,,0.010025247192856516,0.009788637435013186,0.9756095167440402
+StructuredWindowAblation,ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",Cell11,Ridge,True,39,14,41,,0.003060548085172985,0.0026772214337052774,0.9977985876636385
+StructuredWindowAblation,ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",Cell12,Ridge,True,44,9,41,,0.01604213356926023,0.015469994488687085,0.9242553213269591
+StructuredWindowAblation,ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",Cell01,ExtraTrees,True,44,9,41,,0.010315288159322372,0.009202660596679698,0.9722275717904565
+StructuredWindowAblation,ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",Cell03,ExtraTrees,True,43,10,41,,0.01852878375650203,0.018270148567414803,0.8805192404680644
+StructuredWindowAblation,ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",Cell10,ExtraTrees,True,42,11,41,,0.005310334999609943,0.004506898607665783,0.9931565663036146
+StructuredWindowAblation,ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",Cell11,ExtraTrees,True,39,14,41,,0.0048117886122625315,0.003634403466002364,0.9945585322267982
+StructuredWindowAblation,ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",Cell12,ExtraTrees,True,44,9,41,,0.012310026269264926,0.011565236862219627,0.9553988731920238
+StructuredWindowAblation,ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",Cell01,RandomForest,True,44,9,41,,0.010655066147542469,0.009682609745235913,0.9703678322171999
+StructuredWindowAblation,ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",Cell03,RandomForest,True,43,10,41,,0.018165716560793202,0.017019251992096418,0.8851557604731459
+StructuredWindowAblation,ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",Cell10,RandomForest,True,42,11,41,,0.006067212271428233,0.005347082187238097,0.991066768164318
+StructuredWindowAblation,ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",Cell11,RandomForest,True,39,14,41,,0.012235726191023756,0.008062741848012176,0.9648146009290558
+StructuredWindowAblation,ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",Cell12,RandomForest,True,44,9,41,,0.012377419765403384,0.011806636896654276,0.9549091823052905
+StructuredWindowAblation,ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",Cell01,HistGB,True,44,9,41,,0.03202012227522834,0.030075765113928385,0.732393230262155
+StructuredWindowAblation,ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",Cell03,HistGB,True,43,10,41,,0.040539002035727904,0.03213385554270576,0.4280602836604739
+StructuredWindowAblation,ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",Cell10,HistGB,True,42,11,41,,0.034106403872171884,0.027438231762635056,0.717705714711653
+StructuredWindowAblation,ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",Cell11,HistGB,True,39,14,41,,0.09904830715960289,0.0845963427285028,-1.3056697206168337
+StructuredWindowAblation,ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",Cell12,HistGB,True,44,9,41,,0.044642579841310384,0.033153808672700964,0.41342109629821633
+StructuredWindowAblation,ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",Cell01,XGBoost,True,44,9,41,,0.008688547353723574,0.0071699901088101425,0.9802964051654129
+StructuredWindowAblation,ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",Cell03,XGBoost,True,43,10,41,,0.025710356821267058,0.02372709433557708,0.7699509960953101
+StructuredWindowAblation,ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",Cell10,XGBoost,True,42,11,41,,0.007700435692122413,0.006453630881765416,0.9856099990636837
+StructuredWindowAblation,ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",Cell11,XGBoost,True,39,14,41,,0.012092090682950576,0.01024458784640587,0.9656358368446828
+StructuredWindowAblation,ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",Cell12,XGBoost,True,44,9,41,,0.012318125949611429,0.00978507482326522,0.955340161096609
+StructuredWindowAblation,ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",Cell01,LightGBM,True,44,9,41,,0.0313201651352324,0.028559670509170312,0.7439650750888689
+StructuredWindowAblation,ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",Cell03,LightGBM,True,43,10,41,,0.04085421101049669,0.032785703199652606,0.41913152845490353
+StructuredWindowAblation,ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",Cell10,LightGBM,True,42,11,41,,0.03724812990311074,0.0315829489778874,0.6633030579828614
+StructuredWindowAblation,ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",Cell11,LightGBM,True,39,14,41,,0.09904830578969133,0.08459634168825605,-1.3056696568385888
+StructuredWindowAblation,ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",Cell12,LightGBM,True,44,9,41,,0.046832967454119495,0.03707927487731292,0.3544480091783587
+StructuredWindowAblation,ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",Cell01,CatBoost,True,44,9,41,,0.01149956849618551,0.00960296272391529,0.9654844965470587
+StructuredWindowAblation,ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",Cell03,CatBoost,True,43,10,41,,0.019833141869288543,0.017030590025642132,0.8631051261230877
+StructuredWindowAblation,ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",Cell10,CatBoost,True,42,11,41,,0.01608097561007435,0.011560082862021835,0.9372440350146862
+StructuredWindowAblation,ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",Cell11,CatBoost,True,39,14,41,,0.030378324946849212,0.023485709238588583,0.7831144450466312
+StructuredWindowAblation,ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",Cell12,CatBoost,True,44,9,41,,0.02177669994041342,0.015808315990664196,0.860423595841258
+StructuredWindowAblation,ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",Cell01,MAW-GME,True,44,9,41,28.0,0.010002371401039288,0.008711530200288968,0.9738869814934612
+StructuredWindowAblation,ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",Cell03,MAW-GME,True,43,10,41,28.0,0.01981110825892372,0.017468247821152506,0.8634091236299353
+StructuredWindowAblation,ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",Cell10,MAW-GME,True,42,11,41,28.0,0.006676295828279521,0.006180171670273193,0.9891831359898109
+StructuredWindowAblation,ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",Cell11,MAW-GME,True,39,14,41,28.0,0.013015573053749258,0.009620489543879214,0.9601865722728539
+StructuredWindowAblation,ica_shape_features_missing,"ICA-shape/DVA features such as ic_std, peak_width, and DVA are removed.",Cell12,MAW-GME,True,44,9,41,28.0,0.013868192588852917,0.01242345761290347,0.9433933309992377
