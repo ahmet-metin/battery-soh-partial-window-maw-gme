@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+title: Robust Partial-Window State-of-Health Estimation for Lithium-Ion Batteries Using Chemistry-Aware Multi-Health Indicators and Missing-Aware Ensembles
+message: If you use this repository, please cite the accompanying manuscript and this software repository.
+type: software
+authors:
+  - family-names: Metin
+    given-names: Ahmet
+year: 2026
+license: MIT
+repository-code: https://github.com/REPLACE_WITH_USERNAME/battery-soh-partial-window-maw-gme
+abstract: Code and result artifacts for partial-window lithium-ion battery SoH estimation using multi-health indicators and TopK-MAW-GME missing-aware ensembles.
+keywords:
+  - lithium-ion battery
+  - state of health
+  - incremental capacity analysis
+  - partial charging
+  - machine learning
+  - ensemble learning
